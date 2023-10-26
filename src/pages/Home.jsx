@@ -1,9 +1,17 @@
-import React from 'react'
+import "../styles/Home.css";
+import React, { useRef, useState } from "react";
 
 function Home() {
   return (
-    <div>Home</div>
-  )
+    <>
+      <div className="name">
+        <div>
+          <div>Hi, My Name is</div>
+          <div>Mitch</div>
+        </div>
+      </div>
+    </>
+  );
 }
 
-export default Home
+export default Home;

@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  color: pink;
+  font-size: 1.5rem;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+}
+
+.dAndd {
+  display: flex;
+  margin-right: 1rem;
+}
+
+.dAndd div {
+  margin: 0rem 1rem;
+}
+
+.name h3 {
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.name h3:hover {
+  transform: scale(1.2);
+}
+
+.navigation {
+  text-align: right;
+}
+
+.navBurger {
+  /* position: fixed; */
+  right: 1rem;
+  height: 32px;
+  width: 32px;
+  text-align: right;
+}
+
+.navigation ul {
+  text-align-last: right;
+  position: relative;
+  right: 4rem;
+  top: 5rem;
+  margin-right: 0rem;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column nowrap;
+  z-index: 10;
+  align-items: flex-end;
+}
+
+.navigation ul li {
+  list-style-type: none;
+}

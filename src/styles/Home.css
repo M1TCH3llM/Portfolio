@@ -1,0 +1,10 @@
+.name {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+}
+
+.name div {
+  margin: 0.4rem;
+  
+}
