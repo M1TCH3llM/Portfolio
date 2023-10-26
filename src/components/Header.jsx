@@ -11,17 +11,14 @@ function Header() {
   };
 
   return (
+    <>
     <header className="header">
       <div>Mitchell Morgan</div>
-      <div className="dAndd">
-        <a>Design</a>
-        <div>&</div>
-        <a>Development</a>
-      </div>
+     
       <div className="navBurger">
         <div>
           <div className="hamburger" onClick={toggleHamburger}>
-            <Hamburger />
+            <Hamburger isOpen={hamburgerOpen} />
           </div>
         </div>
         {hamburgerOpen && (
@@ -38,6 +35,7 @@ function Header() {
         )}{" "}
       </div>
     </header>
+    </>
   );
 }
 
