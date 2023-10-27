@@ -8,7 +8,16 @@
   margin: 0.4rem;
 }
 
-#Layer_1, #Layer_2 {
+#Layer_1,
+#Layer_2 {
   stroke: azure;
 }
 
+body {
+  background-image: url("../assets/LookAtIt.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top right;
+}

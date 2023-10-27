@@ -5,6 +5,12 @@
   justify-content: space-between;
   padding-left: 1rem;
   padding-top: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.468);
+}
+
+#name {
+  font-size: 2rem;
+  padding: .5rem;
 }
 
 .dAndd {
@@ -16,32 +22,23 @@
   margin: 0rem 1rem;
 }
 
-.name h3 {
-  cursor: pointer;
-  transition: transform 0.3s;
-}
-
-.name h3:hover {
-  transform: scale(1.2);
-}
-
 .navigation {
   text-align: right;
 }
 
 .navBurger {
   /* position: fixed; */
-  right: 1rem;
+  margin: 1rem;
   height: 32px;
   width: 32px;
   text-align: right;
 }
 
-.navigation ul {
+.navigation {
   text-align-last: right;
   position: relative;
-  right: 4rem;
-  top: 5rem;
+  right: 1rem;
+  top: 13rem;
   margin-right: 0rem;
   width: 2rem;
   height: 2rem;
@@ -52,6 +49,25 @@
   align-items: flex-end;
 }
 
+.navigation.open {
+  right: -20; /* Slide in from the right */
+  transition: 0.3s;
+}
+
 .navigation ul li {
+  font-size: 2rem;
+  margin: 1rem 2rem;
   list-style-type: none;
+  transition: 0.2s;
+}
+
+.navigation ul li:hover {
+  transform: scale(150%);
+  cursor: pointer;
+}
+
+.navigation ul {
+  background-color: rgba(0, 0, 0, 0.505);
+  border-radius: 2rem;
+  padding: 0rem 0rem;
 }

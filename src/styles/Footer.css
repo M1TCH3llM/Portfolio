@@ -1,7 +1,17 @@
 .footer {
   margin-left: 4rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 3rem;
 }
 
 .footer a {
   margin: 1rem;
+}
+
+.footer a svg {
+  background-color: black;
+  border-radius: 10%;
 }
