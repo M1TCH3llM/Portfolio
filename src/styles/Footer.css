@@ -1,10 +1,11 @@
 .footer {
-  margin-left: 4rem;
-  position: absolute;
   left: 0;
   bottom: 0;
   right: 0;
   height: 3rem;
+  background-color: rgba(0, 0, 0, 0.468);
+  width: 100%;
+  padding: 1rem 4rem;
 }
 
 .footer a {
@@ -14,4 +15,22 @@
 .footer a svg {
   background-color: black;
   border-radius: 10%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.footer a svg:hover {
+  transform: scale(120%);
+  box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.58);
+  /* background-color: azure; */
+  fill: pink;
+  transition: 0.3s;
+}
+
+.footer a svg:active {
+  transform: scale(105%);
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.58);
+  /* background-color: azure; */
+  background-color: azure;
+  fill: black;
 }

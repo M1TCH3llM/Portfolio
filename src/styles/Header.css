@@ -6,20 +6,12 @@
   padding-left: 1rem;
   padding-top: 0.5rem;
   background-color: rgba(0, 0, 0, 0.468);
+  
 }
 
 #name {
   font-size: 2rem;
-  padding: .5rem;
-}
-
-.dAndd {
-  display: flex;
-  margin-right: 1rem;
-}
-
-.dAndd div {
-  margin: 0rem 1rem;
+  padding: 0.5rem;
 }
 
 .navigation {
