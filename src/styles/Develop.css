@@ -1,0 +1,16 @@
+.developImgs a img {
+  width: 100%;
+  height: auto;
+}
+
+.developImgs {
+  width: 30%;
+  min-width: 300px;
+}
+
+#devBod {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem;
+}
