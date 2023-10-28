@@ -4,6 +4,7 @@ import Hamburger from "./Hamburger";
 import { useState } from "react";
 import { useAnimate, stagger, motion } from "framer-motion";
 const staggerMenuItems = stagger(0.1, { startDelay: 0.15 });
+import { Link } from "react-router-dom";
 
 function Header() {
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
@@ -11,8 +12,6 @@ function Header() {
   const toggleHamburger = () => {
     setHamburgerOpen(!hamburgerOpen);
   };
-
-  
 
   return (
     <>
@@ -28,12 +27,54 @@ function Header() {
           {hamburgerOpen && (
             <div className={`navigation ${hamburgerOpen ? "open" : ""}`}>
               <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Design</li>
-                <li>Develop</li>
-                <li>Resume</li>
-                <li>Contact</li>
+                <li>
+                  <Link
+                    to="/"
+                    style={{ textDecoration: "none", color: "pink" }}
+                  >
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="About"
+                    style={{ textDecoration: "none", color: "pink" }}
+                  >
+                    About
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="Design"
+                    style={{ textDecoration: "none", color: "pink" }}
+                  >
+                    Design
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="Develop"
+                    style={{ textDecoration: "none", color: "pink" }}
+                  >
+                    Develop
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="Resume"
+                    style={{ textDecoration: "none", color: "pink" }}
+                  >
+                    Resume
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="Contact"
+                    style={{ textDecoration: "none", color: "pink" }}
+                  >
+                    Contact
+                  </Link>
+                </li>
               </ul>
             </div>
           )}{" "}
