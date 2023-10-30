@@ -15,8 +15,9 @@ body {
   font-family: "Permanent Marker";
   background-image: url("/src/assets/LookAtIt.png");
   background-repeat: no-repeat;
-  height: 100%;
+  background-attachment: fixed;
   background-size: cover;
+height: ;
   /* background-attachment: fixed; */
   background-position: top right;
 }

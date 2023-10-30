@@ -2,35 +2,55 @@
   position: absolute;
 }
 
+.developImgs a h2{
+ text-align: center;
+ color: Black;
+
+}
+
 .developImgs {
-  width: 25%;
+  width: 20%;
   min-width: 360px;
-  height: 50%;
+  height: auto;
+  min-height: 400px;
+  max-width: 400px;
+  max-height: 500px;
   margin: 1rem;
-  
+  padding: 1rem;
 }
 
 #devBod {
   display: flex;
-  height: 100vh;
+  height: 130vh;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-#frame {
-  height: 50%;
-  width: auto;
+.frame {
+  height: auto;
+  min-width: 300px;
+  max-width: 400px;
+  width: 25%;
+  filter: drop-shadow(5px 5px 10px black);
+  cursor: pointer;
 }
 
-#fillImg {
-  height: 37%;
-  width: auto;
+.fillImg {
+  height: auto;
+  width: 21%;
+  min-width: 250px;
+  max-width: 340px;
   margin: auto;
   transform: translateY(10%) translateX(10%);
-  filter: grayscale(100%) brightness(50%);
-  transition: 1s;
+  filter: grayscale(100%) brightness(10%);
+  transition: 1.5s;
 }
 
-#frame:hover #fillImg {
-  filter: grayscale(0%) brightness(100%);
+a {
+    text-decoration: none;
+    width: 100%;
+}
+
+h2 {
+    background-color: rgba(240, 255, 255, 0.733);
 }
