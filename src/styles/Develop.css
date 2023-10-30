@@ -1,16 +1,36 @@
 .developImgs a img {
-  width: 100%;
-  height: auto;
+  position: absolute;
 }
 
 .developImgs {
-  width: 30%;
-  min-width: 300px;
+  width: 25%;
+  min-width: 360px;
+  height: 50%;
+  margin: 1rem;
+  
 }
 
 #devBod {
   display: flex;
+  height: 100vh;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 2rem;
+}
+
+#frame {
+  height: 50%;
+  width: auto;
+}
+
+#fillImg {
+  height: 37%;
+  width: auto;
+  margin: auto;
+  transform: translateY(10%) translateX(10%);
+  filter: grayscale(100%) brightness(50%);
+  transition: 1s;
+}
+
+#frame:hover #fillImg {
+  filter: grayscale(0%) brightness(100%);
 }
