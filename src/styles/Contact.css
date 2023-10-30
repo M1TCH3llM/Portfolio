@@ -1,0 +1,49 @@
+#form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem 2rem;
+  background-color: black;
+  width: 300px;
+  height: 0%;
+  border-radius: 10%;
+  padding: 2rem 1rem;
+  box-shadow: 7px 7px 6px rgba(0, 0, 0, 0.735);
+}
+
+input,
+textarea {
+  width: 70%;
+  height: 60%;
+  margin: 1rem;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#form h2 {
+  margin-bottom: 1rem;
+}
+
+#send {
+    height: 3rem;
+    width: 5rem;
+    background-color: pink;
+    font-family: "Permanent Marker";
+    border-radius: 10%;
+    font-size: 1.5rem;
+}
+
+#send:hover {
+    background-color: black;
+    color: pink;
+}
+
+#send:active {
+    background-color: azure;
+    color: black;
+}

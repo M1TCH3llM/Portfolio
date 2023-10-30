@@ -2,8 +2,6 @@ import React from "react";
 import "../styles/Header.css";
 import Hamburger from "./Hamburger";
 import { useState } from "react";
-import { useAnimate, stagger, motion } from "framer-motion";
-const staggerMenuItems = stagger(0.1, { startDelay: 0.15 });
 import { Link } from "react-router-dom";
 
 function Header() {

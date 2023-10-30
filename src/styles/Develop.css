@@ -5,7 +5,7 @@
 .developImgs a h2{
  text-align: center;
  color: Black;
-
+ background-color: rgba(240, 255, 255, 0.733);
 }
 
 .developImgs {
@@ -51,6 +51,3 @@ a {
     width: 100%;
 }
 
-h2 {
-    background-color: rgba(240, 255, 255, 0.733);
-}

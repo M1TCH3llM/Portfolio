@@ -1,23 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 }
 
 body {
+  margin: 0;
+  padding: 0;
   max-width: 100%;
   font-family: "Permanent Marker";
   background-image: url("/src/assets/LookAtIt.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-height: ;
-  /* background-attachment: fixed; */
-  background-position: top right;
+  background-position: top right; /* Center the image */
+  min-height: 100vh;
+  padding-bottom: 3rem; /* Ensure the background covers the entire viewport height */
+
+  /* Add the following line to make the image responsive */
 }

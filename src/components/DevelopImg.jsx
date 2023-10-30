@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Frame from "../assets/PoliroidFrame.png";
-import Shred from "../assets/ShredNstyle.png";
+import Shred from "../assets/ShredNStyle.png";
 import Harry from "../assets/HPFP.png";
 import Ecom from "../assets/ecomBackend.png";
 import Emp from "../assets/EmpLineCom.png";
@@ -27,14 +27,14 @@ function DevelopImg() {
 
   return (
     <>
-      <div style={{ border: "solid 2px red" }} className="developImgs">
+      <div className="developImgs">
         <a href="https://github.com/nlad218/ShredNStyle" target="_blank">
           <h2>Shred'N Styles</h2>
           <img className="fillImg" src={Shred} alt="Shred Image" />
           <img className="frame" src={Frame} alt="Frame Image" />
         </a>
       </div>
-      <div style={{ border: "solid 2px red" }} className="developImgs">
+      <div className="developImgs">
         <a
           href="https://github.com/nfillip/harrypotter-fanpage"
           target="_blank"
@@ -44,7 +44,7 @@ function DevelopImg() {
           <img className="frame" src={Frame} alt="Frame Image" />
         </a>
       </div>
-      <div style={{ border: "solid 2px red" }} className="developImgs">
+      <div className="developImgs">
         <a
           href="https://github.com/M1TCH3llM/e_commerce_backend"
           target="_blank"
@@ -54,21 +54,21 @@ function DevelopImg() {
           <img className="frame" src={Frame} alt="Frame Image" />
         </a>
       </div>
-      <div style={{ border: "solid 2px red" }} className="developImgs">
+      <div className="developImgs">
         <a href="https://github.com/M1TCH3llM/employee" target="_blank">
           <h2>Employee Tracker</h2>
           <img className="fillImg" src={Emp} alt="Emp Image" />
           <img className="frame" src={Frame} alt="Frame Image" />
         </a>
       </div>
-      <div style={{ border: "solid 2px red" }} className="developImgs">
+      <div className="developImgs">
         <a href="https://github.com/M1TCH3llM/LogoGen" target="_blank">
           <h2>Logo Generator</h2>
           <img className="fillImg" src={Logo} alt="Logo Image" />
           <img className="frame" src={Frame} alt="Frame Image" />
         </a>
       </div>
-      <div style={{ border: "solid 2px red" }} className="developImgs">
+      <div className="developImgs">
         <a
           href="https://github.com/M1TCH3llM/TheBetterWeatherApp"
           target="_blank"

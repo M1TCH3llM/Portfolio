@@ -1,11 +1,11 @@
 .footer {
-  left: 0;
+  position: fixed;
   bottom: 0;
-  right: 0;
   height: 3rem;
   background-color: rgba(0, 0, 0, 0.468);
   width: 100%;
   padding: 1rem 4rem;
+  /* Add other styles as needed */
 }
 
 .footer a {
