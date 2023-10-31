@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lacquer&family=Maven+Pro:wght@400;500&display=swap");
 
 :root {
   line-height: 1.5;
@@ -11,12 +11,12 @@ body {
   margin: 0;
   padding: 0;
   max-width: 100%;
-  font-family: "Lacquer";
-  background-image: url("/src/assets/LookAtIt.png");
+  font-family: "Maven Pro";
+  background-image: url("/src/assets/Background.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position: top right; /* Center the image */
+  background-position: center center; /* Center the image */
   min-height: 100vh;
   padding-bottom: 3rem; /* Ensure the background covers the entire viewport height */
 

@@ -3,7 +3,7 @@
   margin: 1rem 2rem;
   width: fit-content;
   justify-content: flex-start;
-  color: black;
+  color: azure;
   font-size: 2rem;
 }
 
@@ -16,6 +16,7 @@
   background-color: rgba(240, 255, 255, 0.931);
   padding: 1rem 0rem;
   padding-left: 2rem;
+  padding-right: 1rem;
   border-radius: 30px;
   font-size: 1.3rem;
 }

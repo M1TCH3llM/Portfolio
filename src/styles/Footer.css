@@ -13,7 +13,8 @@
 }
 
 .footer a svg {
-  background-color: black;
+  background-color: black !important;
+  fill: azure;
   border-radius: 10%;
   transition: 0.3s;
   cursor: pointer;

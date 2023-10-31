@@ -7,11 +7,11 @@
 
 .loading p {
   font-size: 3rem;
-  color: black;
+  color: azure;
 }
 
 .spinner {
-  border: 10px solid black;
+  border: 10px solid azure;
   border-radius: 50%;
   border-top: 10px solid pink;
   width: 30px;

@@ -30,20 +30,20 @@ textarea {
 }
 
 #send {
-    height: 3rem;
-    width: 5rem;
-    background-color: rgba(255, 192, 203, 0.639);
-    font-family: "Permanent Marker";
-    border-radius: 10px;
-    font-size: 1.5rem;
+  height: 3rem;
+  width: 5rem;
+  background-color: pink;
+  font-family: "Maven Pro";
+  border-radius: 10px;
+  font-size: 1.5rem;
 }
 
 #send:hover {
-    background-color: black;
-    color: pink;
+  background-color: black;
+  color: pink;
 }
 
 #send:active {
-    background-color: azure;
-    color: black;
+  background-color: azure;
+  color: black;
 }
