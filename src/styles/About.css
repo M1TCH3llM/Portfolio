@@ -1,0 +1,13 @@
+#letter {
+  margin: 2rem;
+  background-color: rgba(240, 255, 255, 0.801);
+  color: black;
+  padding: 1.5rem;
+  border-radius: 20px;
+  width: 60%;
+  min-width: 300px;
+}
+
+#letter div {
+    margin: .5rem 0rem;
+}

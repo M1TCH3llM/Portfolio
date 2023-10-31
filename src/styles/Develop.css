@@ -2,10 +2,11 @@
   position: absolute;
 }
 
-.developImgs a h2{
- text-align: center;
- color: Black;
- background-color: rgba(240, 255, 255, 0.733);
+.developImgs a h2 {
+  text-align: center;
+  color: Black;
+  background-color: rgba(240, 255, 255, 0.733);
+  width: 350px;
 }
 
 .developImgs {
@@ -28,26 +29,33 @@
 
 .frame {
   height: auto;
-  min-width: 300px;
-  max-width: 400px;
-  width: 25%;
+  width: 350px;
   filter: drop-shadow(5px 5px 10px black);
   cursor: pointer;
 }
 
 .fillImg {
   height: auto;
-  width: 21%;
-  min-width: 250px;
-  max-width: 340px;
+  width: 300px;
   margin: auto;
   transform: translateY(10%) translateX(10%);
-  filter: grayscale(100%) brightness(10%);
-  transition: 1.5s;
+  filter: grayscale(100%) brightness(0%);
+  transition: 1.3s;
 }
 
 a {
-    text-decoration: none;
-    width: 100%;
+  text-decoration: none;
+  width: 100%;
 }
 
+#devPage h1 {
+  text-align: center;
+  color: black;
+  background-color: rgba(240, 255, 255, 0.732);
+  width: 40%;
+}
+
+#devPage div {
+  display: flex;
+  justify-content: center;
+}

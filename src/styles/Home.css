@@ -3,23 +3,24 @@
   margin: 1rem 2rem;
   width: fit-content;
   justify-content: flex-start;
- color: black;
-  border-radius: 20%;
+  color: black;
   font-size: 2rem;
 }
-
 
 #qBio {
   margin: 2rem;
   margin-bottom: 4rem;
   color: black;
   width: 40%;
-  background-color: rgba(240, 255, 255, 0.621);
-  padding: 3rem  1rem;
-  border-radius: 10%;
+  min-width: 300px;
+  background-color: rgba(240, 255, 255, 0.931);
+  padding: 1rem 0rem;
+  padding-left: 2rem;
+  border-radius: 30px;
   font-size: 1.3rem;
 }
 
-.name h1, h2 {
+.name h1,
+h2 {
   margin: 0;
 }

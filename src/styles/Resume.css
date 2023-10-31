@@ -1,0 +1,9 @@
+#resCon {
+  text-align: center;
+}
+
+#resCon img {
+  width: 50%;
+  margin: 2rem;
+  min-width: 350px;
+}

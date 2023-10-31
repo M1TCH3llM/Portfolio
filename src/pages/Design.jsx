@@ -1,10 +1,15 @@
 import React from "react";
-import Frame from "../assets/PoliroidFrame.png"
-import "../styles/Develop.css";
-
+import Frame from "../assets/PoliroidFrame.png";
+import "../styles/Design.css";
 
 function Design() {
-  return <div>Design</div>;
+  return (
+    <div id="desBod">
+      <div className="stripes" />
+      <div id="warn">Content Still In Production</div>
+      <div className="stripes" />
+    </div>
+  );
 }
 
-export default Design;
+export default Design; 

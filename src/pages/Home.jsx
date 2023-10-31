@@ -12,16 +12,7 @@ function Home() {
       </div>
       <div id="qBio">
         {" "}
-        As a design and development professional, I've dedicated my career to
-        creating exceptional digital experiences that seamlessly blend
-        aesthetics and functionality. My work revolves around web and app
-        development, where I leverage my skills to turn ideas into interactive
-        realities. Currently, I'm eagerly anticipating the opportunity to delve
-        into the realm of React Three Fiber, a cutting-edge technology that
-        promises to unlock new dimensions of creativity and interactivity. With
-        my professional background and enthusiasm for this new frontier, I'm
-        excited to see how this exploration will further enhance my capabilities
-        and contribute to my ever-evolving skill set.
+        Hi! I'm A Full stack developer with UX, UI design experience. I enjoy making easy and fun to use websites and apps. A lot of my inspiration for this portfolio came from the "outside art" movement. all img assets where home made by me for you. please take your time to look over my web site! and enjoy!!!
       </div>
     </>
   );

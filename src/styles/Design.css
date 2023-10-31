@@ -1,0 +1,28 @@
+#desBod {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-size: 4rem ;
+    margin-top: 5rem;
+    color: rgb(162, 88, 100);
+}
+
+.stripes {
+    height: 3rem;
+    width: 100%;
+    border: 5px solid black;
+    background: repeating-linear-gradient(
+       45deg,
+        yellow 0px,
+        yellow 20px,
+        black 20px,
+        black 40px
+      );
+}
+
+#warn {
+    background-color: rgba(240, 255, 255, 0.675);
+    width: 100%;
+    text-align: center;
+}
