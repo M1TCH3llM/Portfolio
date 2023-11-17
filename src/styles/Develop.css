@@ -1,6 +1,6 @@
-.developImgs a img {
+/* .developImgs a img {
   position: absolute;
-}
+} */
 
 .developImgs a h2 {
   text-align: center;
@@ -28,6 +28,7 @@
 }
 
 .frame {
+  position: relative;
   height: auto;
   width: 350px;
   filter: drop-shadow(5px 5px 10px black);
@@ -35,6 +36,7 @@
 }
 
 .fillImg {
+  position: absolute;
   height: auto;
   width: 300px;
   margin: auto;
