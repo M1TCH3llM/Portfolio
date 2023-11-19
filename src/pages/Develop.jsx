@@ -16,13 +16,7 @@ function Develop() {
 
   return (
     <div>
-      {loading ? (
-        <Loading />
-      ) : (
-        
-          <Img />
-    
-      )}
+      {loading ? <Loading /> : <Img />}
     </div>
   );
 }

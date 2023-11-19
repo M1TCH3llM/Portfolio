@@ -32,8 +32,7 @@ function About() {
       </div>
       <div>
         After the most eventful two years of my life, including moving to
-        Denver, making a significant career change, and experiencing more
-        emotional breakdowns than I can count, I'm glad to present to you all
+        Denver, and making a significant career change, I'm glad to present to you all
         with this portfolio.
       </div>
       <div>
