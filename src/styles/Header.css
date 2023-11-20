@@ -39,11 +39,13 @@
   flex-flow: column nowrap;
   z-index: 10;
   align-items: flex-end;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .navigation.open {
-  right: -20; /* Slide in from the right */
-  transition: 0.3s;
+  opacity: 1;
+  right: -10; /* Slide in from the right */
 }
 
 .navigation ul li {

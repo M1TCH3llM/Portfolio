@@ -22,7 +22,7 @@
 
 #devBod {
   display: flex;
-  height: 130vh;
+  /* height: 130vh; */
   flex-wrap: wrap;
   justify-content: center;
 }

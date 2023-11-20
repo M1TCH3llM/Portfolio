@@ -11,6 +11,10 @@ function Header() {
     setHamburgerOpen(!hamburgerOpen);
   };
 
+  const closeMenu = () => {
+    setHamburgerOpen(false);
+  };
+
   return (
     <>
       <header className="header">
@@ -29,6 +33,7 @@ function Header() {
                   <Link
                     to="/"
                     style={{ textDecoration: "none", color: "pink" }}
+                    onClick={closeMenu}
                   >
                     Home
                   </Link>
@@ -37,6 +42,7 @@ function Header() {
                   <Link
                     to="About"
                     style={{ textDecoration: "none", color: "pink" }}
+                    onClick={closeMenu}
                   >
                     About
                   </Link>
@@ -45,6 +51,7 @@ function Header() {
                   <Link
                     to="Design"
                     style={{ textDecoration: "none", color: "pink" }}
+                    onClick={closeMenu}
                   >
                     Design
                   </Link>
@@ -53,6 +60,7 @@ function Header() {
                   <Link
                     to="Develop"
                     style={{ textDecoration: "none", color: "pink" }}
+                    onClick={closeMenu}
                   >
                     Develop
                   </Link>
@@ -61,6 +69,7 @@ function Header() {
                   <Link
                     to="Resume"
                     style={{ textDecoration: "none", color: "pink" }}
+                    onClick={closeMenu}
                   >
                     Resume
                   </Link>
@@ -69,6 +78,7 @@ function Header() {
                   <Link
                     to="Contact"
                     style={{ textDecoration: "none", color: "pink" }}
+                    onClick={closeMenu}
                   >
                     Contact
                   </Link>

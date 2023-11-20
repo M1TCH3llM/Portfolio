@@ -7,6 +7,8 @@ import Emp from "../assets/EmpLineCom.png";
 import Logo from "../assets/Logo.png";
 import Weather from "../assets/Weather.png";
 import "../styles/Develop.css";
+import GitHub from "../components/Icons/GitHub.svg";
+import Poliroid from "../components/Icons/Poliroid.svg";
 
 function DevelopImg() {
   useEffect(() => {
@@ -45,6 +47,7 @@ function DevelopImg() {
               <h2>Shred'N Styles</h2>
               <img className="fillImg" src={Shred} alt="Shred Image" />
               <img className="frame" src={Frame} alt="Frame Image" />
+              <div></div>
             </a>
           </div>
           <div className="developImgs">
