@@ -21,9 +21,9 @@ function DevelopImg() {
         fillImg.style.filter = "grayscale(0%) brightness(100%)";
       });
 
-      imageSet.addEventListener("mouseleave", () => {
-        fillImg.style.filter = "grayscale(100%) brightness(0%)";
-      });
+      // imageSet.addEventListener("mouseleave", () => {
+      //   fillImg.style.filter = "grayscale(100%) brightness(0%)";
+      // });
 
       imageSet.addEventListener("mousedown", () => {
         fillImg.style.filter = "blur(5px)";
