@@ -1,6 +1,6 @@
 import React from "react";
-import Res from "../assets/resume.png";
-import "../styles/Resume.css"
+import Res from "../assets/Mitchell_Morgan30.png";
+import "../styles/Resume.css";
 
 function Resume() {
   return (
