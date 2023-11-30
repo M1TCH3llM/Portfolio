@@ -9,11 +9,13 @@ function PolaroidCam() {
     const imageSets = document.querySelectorAll(".blurbPolaroid");
 
     imageSets.forEach((imageSet) => {
-      const blurb = imageSet.querySelector(".blurb");
+      const fillImg = imageSet.querySelector(".blurb");
+      fillImg.style.filter = "grayscale(100%) brightness(0%)";
+      fillImg.style.transition = "10s";
 
-      imageSet.addEventListener("mouseenter", () => {
-        blurb.style.filter = "grayscale(0%) brightness(100%)";
-      });
+      setTimeout(() => {
+        fillImg.style.filter = "grayscale(0%) brightness(100%)";
+      }, 1000);
     });
   }, []);
 

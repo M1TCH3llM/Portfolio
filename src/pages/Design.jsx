@@ -11,22 +11,12 @@ function Design() {
 
     imageSets.forEach((imageSet) => {
       const fillImg = imageSet.querySelector(".fillImg");
+      fillImg.style.filter = "grayscale(100%) brightness(0%)";
+      fillImg.style.transition = "10s";
 
-      imageSet.addEventListener("mouseenter", () => {
+      setTimeout(() => {
         fillImg.style.filter = "grayscale(0%) brightness(100%)";
-      });
-
-      // imageSet.addEventListener("mouseleave", () => {
-      //   fillImg.style.filter = "grayscale(100%) brightness(0%)";
-      // });
-
-      imageSet.addEventListener("mousedown", () => {
-        fillImg.style.filter = "blur(5px)";
-      });
-
-      imageSet.addEventListener("mouseup", () => {
-        fillImg.style.filter = "blur(0px)";
-      });
+      }, 1000);
     });
   }, []);
 

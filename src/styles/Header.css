@@ -1,12 +1,15 @@
 .header {
+  position: sticky;
   display: flex;
   color: pink;
   font-size: 1.5rem;
+  width: 100%;
   justify-content: space-between;
-  padding-left: 1rem;
   padding-top: 0.5rem;
-  padding-right: 1rem;
   background-color: rgba(0, 0, 0, 0.866);
+  z-index: 10;
+  top: 0;
+  right: 0;
 }
 
 #name {

@@ -8,29 +8,18 @@ import Logo from "../assets/Logo.png";
 import Weather from "../assets/Weather.png";
 import "../styles/Develop.css";
 
-
 function DevelopImg() {
   useEffect(() => {
     const imageSets = document.querySelectorAll(".developImgs");
 
     imageSets.forEach((imageSet) => {
       const fillImg = imageSet.querySelector(".fillImg");
+      fillImg.style.filter = "grayscale(100%) brightness(0%)";
+      fillImg.style.transition = "10s";
 
-      imageSet.addEventListener("mouseenter", () => {
+      setTimeout(() => {
         fillImg.style.filter = "grayscale(0%) brightness(100%)";
-      });
-
-      // imageSet.addEventListener("mouseleave", () => {
-      //   fillImg.style.filter = "grayscale(100%) brightness(0%)";
-      // });
-
-      imageSet.addEventListener("mousedown", () => {
-        fillImg.style.filter = "blur(5px)";
-      });
-
-      imageSet.addEventListener("mouseup", () => {
-        fillImg.style.filter = "blur(0px)";
-      });
+      }, 3000);
     });
   }, []);
 
@@ -38,7 +27,7 @@ function DevelopImg() {
     <>
       <div id="devPage">
         <div>
-          <h1>Hover Over Image To View Projects</h1>
+          <h1>Development Porjects</h1>
         </div>
         <div id="devBod">
           <div className="developImgs">

@@ -5,7 +5,7 @@
 .developImgs a h2 {
   text-align: center;
   color: Black;
-  background-color: rgba(240, 255, 255, 0.733);
+  background-color: rgba(240, 255, 255, 0.883);
   width: 350px;
 }
 
@@ -25,6 +25,7 @@
   /* height: 130vh; */
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 5rem;
 }
 
 .frame {
@@ -41,8 +42,8 @@
   width: 300px;
   margin: auto;
   transform: translateY(10%) translateX(10%);
-  filter: grayscale(100%) brightness(0%);
-  transition: 1.3s;
+  /* filter: grayscale(100%) brightness(0%); */
+  /* transition: 10s ease-in-out; */
 }
 
 a {
@@ -51,13 +52,18 @@ a {
 }
 
 #devPage h1 {
+  font-size: 3rem;
   text-align: center;
   color: black;
-  background-color: rgba(240, 255, 255, 0.732);
+  background-color: rgba(240, 255, 255, 0.877);
   width: 40%;
 }
 
 #devPage div {
   display: flex;
   justify-content: center;
+}
+
+.fillImg:hover {
+  filter: blur(5px);
 }

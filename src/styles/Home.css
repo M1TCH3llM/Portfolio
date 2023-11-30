@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding-top: 1rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 6rem;
   padding-right: 2rem;
   padding-left: 2rem;
 }

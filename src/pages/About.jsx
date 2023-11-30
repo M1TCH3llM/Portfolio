@@ -3,6 +3,8 @@ import "../styles/About.css";
 
 function About() {
   return (
+    <>
+    <div className="aboutCon">
     <div id="letter">
       <div>Dear reader,</div>
       <div>
@@ -42,6 +44,8 @@ function About() {
       <div>And you know what they say:</div>
       <div>"Smooth seas don't make good sailors." ⛵️</div>
     </div>
+    </div>
+    </>
   );
 }
 

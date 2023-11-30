@@ -9,5 +9,9 @@
 }
 
 #letter div {
-    margin: .5rem 0rem;
+  margin: 0.5rem 0rem;
+}
+
+.aboutCon{
+  padding-bottom: 5rem;
 }
