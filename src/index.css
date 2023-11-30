@@ -18,7 +18,8 @@ body {
   background-size: cover;
   background-position: center center; /* Center the image */
   min-height: 100vh;
-  padding-bottom: 3rem; /* Ensure the background covers the entire viewport height */
+  padding-bottom: 3rem;
+  backdrop-filter: brightness(60%); /* Ensure the background covers the entire viewport height */
 
   /* Add the following line to make the image responsive */
 }

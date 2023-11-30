@@ -6,7 +6,7 @@
   padding-left: 1rem;
   padding-top: 0.5rem;
   padding-right: 1rem;
-  background-color: rgba(0, 0, 0, 0.468);
+  background-color: rgba(0, 0, 0, 0.866);
 }
 
 #name {
@@ -61,7 +61,7 @@
 }
 
 .navigation ul {
-  background-color: rgba(0, 0, 0, 0.505);
+  background-color: rgba(0, 0, 0, 0.853);
   border-radius: 2rem;
   padding: 0rem 0rem;
 }

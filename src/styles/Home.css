@@ -1,6 +1,23 @@
+.homeContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.myInfo {
+  /* border: 2px solid red; */
+  width: 50%;
+  min-width: 360px;
+  max-width: 700px;
+}
+
 .name {
   display: flex;
-  margin: .5rem 2rem;
+  margin: 0rem 0rem;
   width: fit-content;
   justify-content: flex-start;
   color: azure;
@@ -8,12 +25,11 @@
 }
 
 #qBio {
-  margin: .5rem 2rem;
+  margin: 0.5rem 0rem;
   margin-bottom: 4rem;
   color: black;
-  width: 40%;
   min-width: 300px;
-  background-color: rgba(240, 255, 255, 0.931);
+  background-color: rgba(240, 255, 255, 0.908);
   padding: 1rem 0rem;
   padding-left: 2rem;
   padding-right: 1rem;
@@ -21,9 +37,14 @@
   font-size: 1.3rem;
 }
 
+
+
 .name h1,
-h2 {
+h2, h3 {
   margin: 0;
+  color: pink;
+  filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
+
 }
 
 .frameH {
@@ -42,4 +63,61 @@ h2 {
   transform: translateY(8%) translateX(10%);
   /* filter: grayscale(100%) brightness(0%);
   transition: 1.3s; */
+}
+
+/* //////////////////////////// Camera ////////////////// */
+
+.homeCam {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  /* border: 2px solid red; */
+  min-width: 360px;
+  max-width: 700px;
+  align-items: center;
+}
+
+.homeCam h2 {
+  font-size: 3rem;
+  background-color: rgba(0, 0, 0, 0.919);
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+
+.camera {
+  width: 350px;
+  position: relative;
+  filter: drop-shadow(10px 10px 10px rgb(0, 0, 0));
+}
+
+.blurb {
+  width: 280px;
+  position: absolute;
+  left: 35px;
+  bottom: 75px;
+  filter: grayscale(100%) brightness(0%);
+  transition: 10s;
+}
+
+.blurbPolaroid {
+  position: relative;
+}
+
+.projectInfo {
+  padding: 0rem 1rem;
+}
+
+.projectInfo h3 {
+  font-size: 2.5rem;
+  margin: 0;
+  text-align: center;
+}
+
+.projectInfo div {
+  font-size: 1.5rem;
+  margin: 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.903);
+  padding: 5px 10px;
+  border-radius: 30px;
 }

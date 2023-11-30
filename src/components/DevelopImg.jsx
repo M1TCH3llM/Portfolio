@@ -7,8 +7,7 @@ import Emp from "../assets/EmpLineCom.png";
 import Logo from "../assets/Logo.png";
 import Weather from "../assets/Weather.png";
 import "../styles/Develop.css";
-import GitHub from "../components/Icons/GitHub.svg";
-import Poliroid from "../components/Icons/Poliroid.svg";
+
 
 function DevelopImg() {
   useEffect(() => {
