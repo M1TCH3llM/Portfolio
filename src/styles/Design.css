@@ -1,8 +1,14 @@
 #desBod {
   display: flex;
-  /* height: 130vh; */
   flex-wrap: wrap;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#desBod h1 {
+  padding-left: 0.5rem;
+  filter: drop-shadow(5px 5px 10px black);
 }
 
 #desImgs {
@@ -15,4 +21,8 @@
 
 h1 {
   font-size: 4rem;
+}
+
+.imgContainer {
+  height: fit-content;
 }

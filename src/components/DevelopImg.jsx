@@ -26,7 +26,7 @@ function DevelopImg() {
   return (
     <>
       <div id="devPage">
-        <div>
+        <div id="devHeader">
           <h1>Development Porjects</h1>
         </div>
         <div id="devBod">
