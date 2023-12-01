@@ -8,17 +8,26 @@ function Develop() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate a loading delay (e.g., 2 seconds)
-    setTimeout(() => {
+    const handleLoad = () => {
       setLoading(false);
-    }, 2000);
+    };
+
+    // Use a combination of load event and a backup timeout
+    window.addEventListener("load", handleLoad);
+
+    // Set a timeout as a backup in case the load event doesn't fire
+    const timeoutId = setTimeout(() => {
+      handleLoad();
+    }, 1000); // Adjust the timeout duration as needed
+
+    // Cleanup the event listener and timeout on component unmount
+    return () => {
+      window.removeEventListener("load", handleLoad);
+      clearTimeout(timeoutId);
+    };
   }, []);
 
-  return (
-    <div>
-      {loading ? <Loading /> : <Img />}
-    </div>
-  );
+  return <div>{loading ? <Loading /> : <Img />}</div>;
 }
 
 export default Develop;
