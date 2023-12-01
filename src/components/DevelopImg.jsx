@@ -27,7 +27,7 @@ function DevelopImg() {
     <>
       <div id="devPage">
         <div id="devHeader">
-          <h1>Development Porjects</h1>
+          <h1>Development Projects</h1>
         </div>
         <div id="devBod">
           <div className="developImgs">

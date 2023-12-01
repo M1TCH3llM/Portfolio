@@ -79,11 +79,11 @@ function Design() {
               <div></div>
             </a>
           </div>
-        </div>
-      </div>{" "}
-      {isRetroTheaterVisible && <RetroTheater />}
+        </div>{isRetroTheaterVisible && <RetroTheater />}
       {isVenuesVisible && <Venues />}
       {isSafeSpaceVisible && <SafeSpace />}
+      </div>{" "}
+      
     </>
   );
 }

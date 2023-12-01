@@ -21,7 +21,7 @@ function Home() {
           <div id="qBio">
             Hi! I'm A Full Stack Developer with UX, UI Design experience. I
             enjoy making easy and fun to use websites and apps. All img assets
-            where home made by me for you. Please take your time to look over my
+            were home made by me for you. Please take your time to look over my
             web site! and enjoy!!!
           </div>
         </div>
