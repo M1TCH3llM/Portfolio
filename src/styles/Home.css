@@ -40,7 +40,8 @@
 
 
 .name h1,
-h2, h3 {
+.name h2, 
+.name h3 {
   margin: 0;
   color: pink;
   filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
