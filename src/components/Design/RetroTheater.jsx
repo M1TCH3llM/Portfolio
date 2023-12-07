@@ -148,14 +148,14 @@ function RetroTheater() {
           </p>
         </div>
       </div>
-      <div>
+      <div id="paperWireFrame">
         <div>
           <h2>Paper Wire Frames</h2>
         </div>
-        <div>
+        <div id="crazyEightsCon">
           <div>
             <h3>Crazy 8's</h3>
-            <p>
+            <p id="crazyP">
               This step was done with digital wireframes and only using crazy
               8's sketches as references. The reason for this was I already knew
               exactly where features were going to be incorporated into the
@@ -163,7 +163,23 @@ function RetroTheater() {
               remotely.
             </p>
           </div>
-          {/* <img src={Eights} alt="Crazy Eights Drawing" /> */}
+          <img src={Eights} alt="Crazy Eights Drawing" />
+        </div>
+      </div>
+      <div>
+        <div>
+          <h2>Paper Wireframe 
+Screen Size Variation</h2>
+<p>My goal during this process was to keep similar attributes and functionalities between screens. A user in theory would be able to navigate the phone screen just the same as the web page. 
+</p>
+        </div>
+        <div>
+        <img src="" alt="" />
+        <h3></h3>
+        </div>
+        <div>
+        <img src="" alt="" />
+        <h3></h3>
         </div>
       </div>
     </div>
