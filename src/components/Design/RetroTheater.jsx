@@ -134,11 +134,11 @@ function RetroTheater() {
           </div>
         </div>
       </div>
-      <div id="Design">
+      <div id="design">
         <h2>Design</h2>
       </div>
       <div id="retroMap">
-        {/* <img src={Map} alt="Retro Movie Map" /> */}
+        <img src={Map} alt="Retro Movie Map" />
         <div id="retroMapInfo">
           <h3>Site Map</h3>
           <p>

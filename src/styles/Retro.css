@@ -62,7 +62,8 @@
 #retroDuration div,
 .retroBreakDown div,
 #retroResearch div,
-#retroPain p {
+#retroPain p,
+#retroMapInfo p {
   background-color: #0f0f2d;
   width: 60%;
   padding: 1rem 1rem;
@@ -120,8 +121,8 @@
 #retroPain h2,
 .pain h2,
 #retroPersonas h2,
-#retroPersonas h3
- {
+#retroPersonas h3,
+#design h2 {
   color: #f6009d;
   text-shadow: 0px 0px 9px #f6009d;
   filter: drop-shadow(3px 3px 0px black);
@@ -129,8 +130,8 @@
 
 #retroResearchH2,
 #retroPersonas h2 {
-    font-size: 2.5rem !important;
-    text-align: center;
+  font-size: 2.5rem !important;
+  text-align: center;
 }
 
 /* /////////////////////// Pain Points /////////////////// */
@@ -145,26 +146,75 @@
 /* /////////////////// Personas ///////////////// */
 
 #retroPersonas h3 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .retroUser img {
-    width: 350px;
+  width: 350px;
 }
 
 #userContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 #retroPersonas {
-    margin-top: 5cqw !important;
+  margin-top: 5cqw !important;
 }
 
+/* /////////////// Design ///////////// */
+
+#design h2,
+#retroMapInfo h3 {
+  color: #2de2e6;
+  text-shadow: 0px 0px 9px #2de2e6;
+  text-align: center;
+}
+
+#design h2 {
+  font-size: 2.5rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+#retroMap {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#retroMapInfo {
+  width: 350px;
+}
+
+#retroMapInfo h3 {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  text-align: left;
+  text-shadow: 0px 0px 9px #2de2e6;
+  filter: drop-shadow(3px 3px 0px black);
+
+}
+
+#retroMap img {
+  width: 350px;
+}
+
+/////////////// Paper WF //////////////////
+
+
+
+
+/* /////////////// MediaQ //////////// */
 
 @media (min-width: 800px) {
-    .retroUser img {
-        width: 700px;
-    }
+  .retroUser img {
+    width: 700px;
   }
+
+  #retroMap img {
+    width: 500px;
+  }
+}
