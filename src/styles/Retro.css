@@ -6,7 +6,7 @@
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
-  margin-top: 10rem ;
+  margin-top: 10rem;
 }
 
 #retroBanner {
@@ -35,7 +35,6 @@
   /* box-shadow: 0px 0px 20px #F9C80E; */
   box-shadow: inset 0px 0px 10px #f9c80e, 0px 0px 20px #f9c80e;
   filter: drop-shadow(0px 0px 8px white);
-
 }
 
 /* /////////////////////// Project Overview ///////////////// */
@@ -49,20 +48,21 @@
 #retroOverView h2,
 #retroDuration h2,
 .retroBreakDown h2,
-#retroResearch h2 {
+#retroResearch h2,
+#retroPain h2 {
   font-size: 2rem;
   color: #f9c80e;
   text-shadow: 0px 0px 9px #f9c60eeb;
   margin-left: 1rem;
   margin-bottom: 0.5rem;
   filter: drop-shadow(3px 3px 0px black);
-
 }
 
 #retroOverView div,
 #retroDuration div,
 .retroBreakDown div,
-#retroResearch div {
+#retroResearch div,
+#retroPain p {
   background-color: #0f0f2d;
   width: 60%;
   padding: 1rem 1rem;
@@ -83,35 +83,88 @@
 
 /* ////////////////////// 4 points ////////////////// */
 
-#retroBreakDown {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
+#retroBreakDown,
+#retroPainPoints {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.retroBreakDown {
-   width: 350px;
-   margin: 1rem;
+.retroBreakDown,
+.pain {
+  width: 350px;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pain {
+  margin: 0rem;
 }
 
 .retroBreakDown div {
-    height: 200px;
+  height: 200px;
 }
 
 /* ////////////////////// Research ////////////////// */
 
 #retroResearch {
-    margin: 0rem 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin: 0rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-#retroResearch h2 {
-    color: #F6009D;
-    text-align: end;
-    margin-right: 2rem;
-    text-shadow: 0px 0px 9px #F6009D;
-    filter: drop-shadow(3px 3px 0px black);
+#retroResearch h2,
+#retroPain h2,
+.pain h2,
+#retroPersonas h2,
+#retroPersonas h3
+ {
+  color: #f6009d;
+  text-shadow: 0px 0px 9px #f6009d;
+  filter: drop-shadow(3px 3px 0px black);
 }
+
+#retroResearchH2,
+#retroPersonas h2 {
+    font-size: 2.5rem !important;
+    text-align: center;
+}
+
+/* /////////////////////// Pain Points /////////////////// */
+#retroPainH2 {
+  text-align: center;
+  margin-right: 50rem;
+  font-size: 2.5rem !important;
+  margin-left: 2rem !important;
+  margin-top: 3rem;
+}
+
+/* /////////////////// Personas ///////////////// */
+
+#retroPersonas h3 {
+    font-size: 2rem;
+}
+
+.retroUser img {
+    width: 350px;
+}
+
+#userContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#retroPersonas {
+    margin-top: 5cqw !important;
+}
+
+
+@media (min-width: 800px) {
+    .retroUser img {
+        width: 700px;
+    }
+  }

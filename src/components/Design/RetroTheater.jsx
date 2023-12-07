@@ -4,7 +4,7 @@ import RetroBanner from "../../assets/UXAssets/RetroBanner.png";
 import UserSarah from "../../assets/UXAssets/RetroMovieSarah.png";
 import UserJames from "../../assets/UXAssets/RetroMovieJames.png";
 import Map from "../../assets/UXAssets/RetroMovieMap.png";
-import Eights from "../../assets/UXAssets/RetroEights.png"
+import Eights from "../../assets/UXAssets/RetroEights.png";
 
 import "../../styles/Retro.css";
 
@@ -66,54 +66,54 @@ function RetroTheater() {
         </div>
       </div>
       <div id="retroResearch">
-        <h2>Research Overview</h2>
+        <h2 id="retroResearchH2">Research Overview</h2>
         <div>
-        <p>
-          By conducting extensive user research and creating empathy maps, we
-          were able to target pain points in the user experience. Our initial
-          assumption was that users simply wanted a website to purchase show
-          tickets. However, through in-depth interviews and studying user
-          behavior, we discovered that including additional information about
-          the movie, theater, and staff would make the experience more homely
-          and welcoming. We aimed to create a unique experience distinct from
-          other big box theaters and our research helped us achieve that goal.
-        </p>
-        <p>
-          Throughout our research process, we gained valuable insights by
-          conducting in-depth interviews with key users and developing user
-          personas. Our focus was on catering to busy working individuals who
-          struggle to find the perfect venue that suits their specific needs.
-          Our user group confirmed our initial assumptions while also
-          introducing fresh perspectives and considerations. For instance, users
-          emphasized the importance of theater amenities such as special events
-          and food options.
-        </p>
-        <p>
-          By incorporating these valuable insights, our application addresses
-          all aspects of movie selection, while providing a comprehensive
-          solution for my users.
-        </p>
+          <p>
+            By conducting extensive user research and creating empathy maps, we
+            were able to target pain points in the user experience. Our initial
+            assumption was that users simply wanted a website to purchase show
+            tickets. However, through in-depth interviews and studying user
+            behavior, we discovered that including additional information about
+            the movie, theater, and staff would make the experience more homely
+            and welcoming. We aimed to create a unique experience distinct from
+            other big box theaters and our research helped us achieve that goal.
+          </p>
+          <p>
+            Throughout our research process, we gained valuable insights by
+            conducting in-depth interviews with key users and developing user
+            personas. Our focus was on catering to busy working individuals who
+            struggle to find the perfect venue that suits their specific needs.
+            Our user group confirmed our initial assumptions while also
+            introducing fresh perspectives and considerations. For instance,
+            users emphasized the importance of theater amenities such as special
+            events and food options.
+          </p>
+          <p>
+            By incorporating these valuable insights, our application addresses
+            all aspects of movie selection, while providing a comprehensive
+            solution for my users.
+          </p>
         </div>
       </div>
       <div id="retroPain">
-        <h2>Pain Points</h2>
-        <div>
+        <h2 id="retroPainH2">Pain Points</h2>
+        <div id="retroPainPoints">
           <div className="pain">
-            <h3>Navigation</h3>
+            <h2>Navigation</h2>
             <p>
               Users want a simple navigation experience that doesn't get them
               lost when looking for movies.
             </p>
           </div>
           <div className="pain">
-            <h3>Tickets</h3>
+            <h2>Tickets</h2>
             <p>
               Users want a simple navigation experience that doesn't get them
               lost when looking for movies.
             </p>
           </div>
           <div className="pain">
-            <h3>Movie Info</h3>
+            <h2>Movie Info</h2>
             <p>
               Users want a way to read about the movie to better understand if
               its a film they would like to see or not.
@@ -123,14 +123,14 @@ function RetroTheater() {
       </div>
       <div id="retroPersonas">
         <h2>User Personas</h2>
-        <div>
+        <div id="userContainer">
           <div className="retroUser">
-            {/* <img src={UserSarah} /> */}
-            <h3>Sarah</h3>
+           <h3>Sarah</h3> 
+           <img src={UserSarah} />
           </div>
           <div className="retroUser">
-            {/* <img src={UserJames} /> */}
-            <h3>James</h3>
+            <h3>James</h3> 
+            <img src={UserJames} />
           </div>
         </div>
       </div>
@@ -153,16 +153,17 @@ function RetroTheater() {
           <h2>Paper Wire Frames</h2>
         </div>
         <div>
-        <div>
-          <h3>Crazy 8's</h3>
-          <p>
-            This step was done with digital wireframes and only using crazy 8's
-            sketches as references. The reason for this was I already knew
-            exactly where features were going to be incorporated into the design
-            and it would be easier to share ideal with colleges remotely.
-          </p>
-        </div>
-        {/* <img src={Eights} alt="Crazy Eights Drawing" /> */}
+          <div>
+            <h3>Crazy 8's</h3>
+            <p>
+              This step was done with digital wireframes and only using crazy
+              8's sketches as references. The reason for this was I already knew
+              exactly where features were going to be incorporated into the
+              design and it would be easier to share ideal with colleges
+              remotely.
+            </p>
+          </div>
+          {/* <img src={Eights} alt="Crazy Eights Drawing" /> */}
         </div>
       </div>
     </div>
