@@ -10,7 +10,7 @@ import PaperTab from "../../assets/UXAssets/phonePaper.png";
 import WebWF from "../../assets/UXAssets/WebDWF.png";
 import PhoneWF from "../../assets/UXAssets/phoneDWF.png";
 import TabletWF from "../../assets/UXAssets/TabletDWF.png";
-import LoFi from "../../assets/UXAssets/LoFiProto.png"
+import LoFi from "../../assets/UXAssets/LoFiProto.png";
 
 import "../../styles/Retro.css";
 
@@ -247,9 +247,70 @@ function RetroTheater() {
             critical user issues and prototype shortcomings.
           </p>
         </div>
-          <img  id="lofiProtoImg" src={LoFi} alt="" />
+        <img id="lofiProtoImg" src={LoFi} alt="" />
       </div>
-      <div></div>
+      <div>
+        <h2>Usability Study</h2>
+        <div>
+          <h2>Parameters</h2>
+          <div>
+            <div>
+              <h3>Study Type</h3>
+              <p>Unmoderated Usability Study</p>
+            </div>
+            <div>
+              <h3>Location</h3>
+              <p>United States Remote</p>
+            </div>
+            <div>
+              <h3>Participants</h3>
+              <p>5 Participants</p>
+            </div>
+            <div>
+              <h3>Study Type</h3>
+              <p>20-30 Minutes</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2>Findings</h2>
+          <p>
+            {" "}
+            Based on the gathered information, it was evident that users
+            expressed a desire to utilize the ferris wheel selector for booking
+            movies. The ticket page presented challenges for users, as it was
+            difficult to navigate and caused frustration. Additionally, the cart
+            function was identified as an area that required improvements in
+            order to enhance the overall user experience. These findings
+            highlight the importance of streamlining the ticketing process and
+            updating the cart functionality to ensure a smoother and more
+            enjoyable user journey on the website.
+          </p>
+        </div>
+        <div>
+          <div>
+            <h3>Finding #1</h3>
+            <p>
+              Users wanted to be able to select movies on ferris wheel
+              presenter.
+            </p>
+          </div>
+          <div>
+            <h3>Finding #2</h3>
+            <p>
+              Users had difficulty finding the book movie page because parts of
+              the page were hidden.
+            </p>
+          </div>
+          <div>
+            <h3>Finding #3</h3>
+            <p>
+              Users wanted to be able to add their rewards info into the website
+              when checking out.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
