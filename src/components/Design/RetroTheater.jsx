@@ -10,6 +10,7 @@ import PaperTab from "../../assets/UXAssets/phonePaper.png";
 import WebWF from "../../assets/UXAssets/WebDWF.png";
 import PhoneWF from "../../assets/UXAssets/phoneDWF.png";
 import TabletWF from "../../assets/UXAssets/TabletDWF.png";
+import LoFi from "../../assets/UXAssets/LoFiProto.png"
 
 import "../../styles/Retro.css";
 
@@ -212,19 +213,43 @@ function RetroTheater() {
         </div>
         <div id="digitalWFCon">
           <div>
-            <img className="dWF" src={WebWF} alt="Early Web Digital Wire Frame" />
+            <img
+              className="dWF"
+              src={WebWF}
+              alt="Early Web Digital Wire Frame"
+            />
             <h3>Web</h3>
           </div>
           <div>
-            <img className="dWF" src={TabletWF} alt="Early Tablet Digital Wire Frame" />
+            <img
+              className="dWF"
+              src={TabletWF}
+              alt="Early Tablet Digital Wire Frame"
+            />
             <h3>Tablet</h3>
           </div>
           <div>
-            <img className="dWF" src={PhoneWF} alt="Early Phone Digital Wire Frame" />
+            <img
+              className="dWF"
+              src={PhoneWF}
+              alt="Early Phone Digital Wire Frame"
+            />
             <h3>Phone</h3>
           </div>
         </div>
       </div>
+      <div id="lofiProtoCon">
+        <div id="lofiProto">
+          <h2>Low Fidelity Prototype</h2>
+          <p>
+            Initially for my low fidelity prototype I wanted to simulate the
+            user flow for booking a movie tickets. This way we can identify
+            critical user issues and prototype shortcomings.
+          </p>
+        </div>
+          <img  id="lofiProtoImg" src={LoFi} alt="" />
+      </div>
+      <div></div>
     </div>
   );
 }

@@ -31,19 +31,19 @@ function Design() {
         setSelectedImage(index);
 
       
-        if (index === 0) {
-          setIsRetroTheaterVisible(true);
-          setIsVenuesVisible(false);
-          setIsSafeSpaceVisible(false);
-        } else if (index === 1) {
-          setIsRetroTheaterVisible(false);
-          setIsVenuesVisible(true);
-          setIsSafeSpaceVisible(false);
-        } else if (index === 2) {
-          setIsRetroTheaterVisible(false);
-          setIsVenuesVisible(false);
-          setIsSafeSpaceVisible(true);
-        }
+        // if (index === 0) {
+        //   setIsRetroTheaterVisible(true);
+        //   setIsVenuesVisible(false);
+        //   setIsSafeSpaceVisible(false);
+        // } else if (index === 1) {
+        //   setIsRetroTheaterVisible(false);
+        //   setIsVenuesVisible(true);
+        //   setIsSafeSpaceVisible(false);
+        // } else if (index === 2) {
+        //   setIsRetroTheaterVisible(false);
+        //   setIsVenuesVisible(false);
+        //   setIsSafeSpaceVisible(true);
+        // }
 
         setCurrentComponent(imageSet.getAttribute("data-component"));
       });

@@ -12,10 +12,11 @@
 #retroPage img {
   border: 3px solid #f9c80e;
   border-radius: 30px;
+  box-shadow: 5px 5px 10px black;
 }
 
 #retroBanner {
-  box-shadow: 0px -10px 50px 60px black;
+  box-shadow: 0px -10px 50px 60px black !important;
   height: 400px;
   width: 100%;
   object-fit: cover;
@@ -28,6 +29,10 @@
 #retroPage h2,
 #retroPage h3 {
   font-family: "Audiowide";
+}
+
+#retroPage h2 {
+  font-size: 2.5rem;
 }
 
 #retroHeader {
@@ -74,7 +79,8 @@
 #retroMapInfo p,
 #crazyEightsCon p,
 #paperInfo p,
-#digitalWF p {
+#digitalWF p,
+#lofiProto p {
   background-color: #0f0f2d;
   /* width: 60%; */
   padding: 1rem 1rem;
@@ -143,9 +149,12 @@
   filter: drop-shadow(3px 3px 0px black);
 }
 
+#retroResearch h2 {
+  font-size: 2.5rem;
+}
+
 #retroResearchH2,
 #retroPersonas h2 {
-  font-size: 2.5rem !important;
   text-align: center;
 }
 
@@ -189,7 +198,8 @@
 #paperWireFrame h2,
 #paperWireFrame h3,
 #paperInfo h2,
-#digitalWF h2 {
+#digitalWF h2,
+#lofiProto h2 {
   color: #2de2e6;
   text-shadow: 0px 0px 9px #2de2e6;
   text-align: center;
@@ -268,7 +278,8 @@
 }
 
 #paperInfo p,
-#digitalWF p {
+#digitalWF p,
+#lofiProto p {
   margin: 0rem 1rem;
   max-width: 400px;
 }
@@ -285,30 +296,41 @@
   filter: drop-shadow(3px 3px 0px black);
 }
 
-
 /* ///////////// Digital WF ///////////// */
 
 #digitalWF h2 {
-    font-size: 2.5rem;
-    text-align: left;
-    margin-left: 2rem;
+  text-align: left;
+  margin-left: 2rem;
 }
 
 #digitalWF div {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .dWF {
-    height: 500px
+  height: 500px;
 }
 
 #digitalWFCon {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 2rem;
-    flex-wrap: wrap;
-    text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+/* /////////////// LoFi ///////////////////// */
+
+#lofiProtoImg {
+  width: 350px;
+  margin-top: 2rem;
+}
+
+#lofiProtoCon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 /* /////////////// MediaQ //////////// */
@@ -320,5 +342,9 @@
 
   #retroMap img {
     width: 500px;
+  }
+
+  #lofiProtoImg {
+    width: 650px;
   }
 }
