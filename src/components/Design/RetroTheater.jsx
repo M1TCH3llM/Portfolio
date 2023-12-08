@@ -7,6 +7,9 @@ import Map from "../../assets/UXAssets/RetroMovieMap.png";
 import Eights from "../../assets/UXAssets/RetroEights.png";
 import PaperWeb from "../../assets/UXAssets/WebPaper.png";
 import PaperTab from "../../assets/UXAssets/phonePaper.png";
+import WebWF from "../../assets/UXAssets/WebDWF.png";
+import PhoneWF from "../../assets/UXAssets/phoneDWF.png";
+import TabletWF from "../../assets/UXAssets/TabletDWF.png";
 
 import "../../styles/Retro.css";
 
@@ -193,6 +196,32 @@ function RetroTheater() {
               alt="Paper wireframe Phone"
             />
             <h3>Tablet & Phone</h3>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div id="digitalWF">
+          <h2>Digital WireFrames</h2>
+          <div>
+            <p>
+              My goal was to make the site as easy to navigate as possible and
+              display movies that would be most relevant to users, so searching
+              for them would not be a hassle.
+            </p>
+          </div>
+        </div>
+        <div id="digitalWFCon">
+          <div>
+            <img className="dWF" src={WebWF} alt="Early Web Digital Wire Frame" />
+            <h3>Web</h3>
+          </div>
+          <div>
+            <img className="dWF" src={TabletWF} alt="Early Tablet Digital Wire Frame" />
+            <h3>Tablet</h3>
+          </div>
+          <div>
+            <img className="dWF" src={PhoneWF} alt="Early Phone Digital Wire Frame" />
+            <h3>Phone</h3>
           </div>
         </div>
       </div>
