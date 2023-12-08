@@ -5,6 +5,8 @@ import UserSarah from "../../assets/UXAssets/RetroMovieSarah.png";
 import UserJames from "../../assets/UXAssets/RetroMovieJames.png";
 import Map from "../../assets/UXAssets/RetroMovieMap.png";
 import Eights from "../../assets/UXAssets/RetroEights.png";
+import PaperWeb from "../../assets/UXAssets/WebPaper.png";
+import PaperTab from "../../assets/UXAssets/phonePaper.png";
 
 import "../../styles/Retro.css";
 
@@ -125,11 +127,11 @@ function RetroTheater() {
         <h2>User Personas</h2>
         <div id="userContainer">
           <div className="retroUser">
-           <h3>Sarah</h3> 
-           <img src={UserSarah} />
+            <h3>Sarah</h3>
+            <img src={UserSarah} />
           </div>
           <div className="retroUser">
-            <h3>James</h3> 
+            <h3>James</h3>
             <img src={UserJames} />
           </div>
         </div>
@@ -167,19 +169,31 @@ function RetroTheater() {
         </div>
       </div>
       <div>
-        <div>
-          <h2>Paper Wireframe 
-Screen Size Variation</h2>
-<p>My goal during this process was to keep similar attributes and functionalities between screens. A user in theory would be able to navigate the phone screen just the same as the web page. 
-</p>
+        <div id="paperInfo">
+          <h2>Paper Wireframe Screen Size Variation</h2>
+          <p>
+            My goal during this process was to keep similar attributes and
+            functionalities between screens. A user in theory would be able to
+            navigate the phone screen just the same as the web page.
+          </p>
         </div>
-        <div>
-        <img src="" alt="" />
-        <h3></h3>
-        </div>
-        <div>
-        <img src="" alt="" />
-        <h3></h3>
+        <div id="paperImg">
+          <div>
+            <img
+              className="paperImg"
+              src={PaperWeb}
+              alt="Paper wireframe Web"
+            />
+            <h3 id="paperH3">Web</h3>
+          </div>
+          <div id="paperH3">
+            <img
+              className="paperImg"
+              src={PaperTab}
+              alt="Paper wireframe Phone"
+            />
+            <h3>Tablet & Phone</h3>
+          </div>
         </div>
       </div>
     </div>

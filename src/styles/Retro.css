@@ -25,7 +25,8 @@
 }
 
 #retroPage h1,
-#retroPage h2 {
+#retroPage h2,
+#retroPage h3 {
   font-family: "Audiowide";
 }
 
@@ -71,7 +72,8 @@
 #retroResearch div,
 #retroPain p,
 #retroMapInfo p,
-#crazyEightsCon p {
+#crazyEightsCon p,
+#paperInfo p {
   background-color: #0f0f2d;
   /* width: 60%; */
   padding: 1rem 1rem;
@@ -184,7 +186,8 @@
 #design h2,
 #retroMapInfo h3,
 #paperWireFrame h2,
-#paperWireFrame h3 {
+#paperWireFrame h3,
+#paperInfo h2 {
   color: #2de2e6;
   text-shadow: 0px 0px 9px #2de2e6;
   text-align: center;
@@ -212,7 +215,7 @@
 #paperWireFrame h3 {
   margin-left: 1rem;
   margin-bottom: 1rem;
-  font-size: 2rem;
+  font-size: 2rem !important;
   text-align: left;
   text-shadow: 0px 0px 9px #2de2e6;
   filter: drop-shadow(3px 3px 0px black);
@@ -222,7 +225,7 @@
   width: 350px;
 }
 
-/* /////////////// Paper WF ////////////////// */
+/* /////////////// Paper WF  Crazy////////////////// */
 
 #paperWireFrame img {
   width: 350px;
@@ -236,6 +239,45 @@
 #crazyEightsCon p {
   width: 300px;
   margin-bottom: 2rem;
+}
+
+/* //////////////////// Paper wire //////////////? */
+
+#paperInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#paperImg {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end !important;
+  justify-content: space-around;
+  text-align: center;
+}
+
+#paperInfo h2 {
+  margin: 1rem;
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+
+#paperInfo p {
+  margin: 0rem 1rem;
+  max-width: 400px;
+}
+
+.paperImg {
+  width: 350px;
+}
+
+#paperH3 {
+  font-size: 1.5rem !important;
+  color: #2de2e6;
+  text-shadow: 0px 0px 9px #2de2e6;
+  filter: drop-shadow(3px 3px 0px black);
 }
 
 /* /////////////// MediaQ //////////// */
