@@ -11,7 +11,12 @@ import WebWF from "../../assets/UXAssets/WebDWF.png";
 import PhoneWF from "../../assets/UXAssets/phoneDWF.png";
 import TabletWF from "../../assets/UXAssets/TabletDWF.png";
 import LoFi from "../../assets/UXAssets/LoFiProto.png";
-
+import Home2 from "../../assets/UXAssets/newWebHome.png";
+import OldMovie from "../../assets/UXAssets/movie1.png";
+import NewMovie1 from "../../assets/UXAssets/NewMovie1.png";
+import NewMovie2 from "../../assets/UXAssets/NewMovie2.png";
+import CheckoutOld from "../../assets/UXAssets/CheckOutOld.png";
+import CheckoutNew from "../../assets/UXAssets/CheckoutNew.png";
 import "../../styles/Retro.css";
 
 function RetroTheater() {
@@ -274,19 +279,19 @@ function RetroTheater() {
         </div>
         <div id="findingsInfo">
           <div>
-          <h3>Findings</h3>
-          <p>
-            {" "}
-            Based on the gathered information, it was evident that users
-            expressed a desire to utilize the ferris wheel selector for booking
-            movies. The ticket page presented challenges for users, as it was
-            difficult to navigate and caused frustration. Additionally, the cart
-            function was identified as an area that required improvements in
-            order to enhance the overall user experience. These findings
-            highlight the importance of streamlining the ticketing process and
-            updating the cart functionality to ensure a smoother and more
-            enjoyable user journey on the website.
-          </p>
+            <h3>Findings</h3>
+            <p>
+              {" "}
+              Based on the gathered information, it was evident that users
+              expressed a desire to utilize the ferris wheel selector for
+              booking movies. The ticket page presented challenges for users, as
+              it was difficult to navigate and caused frustration. Additionally,
+              the cart function was identified as an area that required
+              improvements in order to enhance the overall user experience.
+              These findings highlight the importance of streamlining the
+              ticketing process and updating the cart functionality to ensure a
+              smoother and more enjoyable user journey on the website.
+            </p>
           </div>
         </div>
         <div id="findings">
@@ -312,8 +317,48 @@ function RetroTheater() {
             </p>
           </div>
         </div>
+        <div>
+          <div className="findingsDisplay">
+            <img src={WebWF} alt="first paper web" />
+            <div>
+              <h4>Finding #1</h4>
+              <p>
+                I updated the home page and changed the movie ferris wheel to be
+                more intuitive and interactive so users will be able to select
+                movies and navigate to booking form.
+              </p>
+            </div>
+            <img src={Home2} alt="wire from iteration" />
+          </div>
+          <div className="findingsDisplay">
+            <img src={OldMovie} alt="Pre user study wireframe" />
+            <div>
+              <h4>Finding #2</h4>
+              <p>
+                To make the ticket selection and booking process I updated the
+                layout to consist of two separate pages as opposed to one. This
+                helped users who where unable to find the ticket purchasing page
+                due to it not being visible.
+              </p>
+            </div>
+            <div id="finding2Img">
+            <img src={NewMovie1} alt="New movie Wireframe" />
+            <img src={NewMovie2} alt="new booking wire frame" />
+            </div>
+          </div>
+          <div className="findingsDisplay">
+            <img src={CheckoutOld} alt="Pre User study checkout" />
+            <div>
+              <h4>Finding #3</h4>
+              <p>
+                I updated the checkout page to include loyalty information from
+                users.
+              </p>
+            </div>
+            <img src={CheckoutNew} alt="post user study checkout" />
+          </div>
+        </div>
       </div>
-      
     </div>
   );
 }

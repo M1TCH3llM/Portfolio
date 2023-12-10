@@ -376,10 +376,32 @@ align-items: center;  flex-direction: column;
   margin-left: 0rem;
 }
 
-#findings p {
+#findings p,
+.findingsDisplay p {
   max-width: 350px;
-  margin: 0rem 1rem;
 }
+
+.findingsDisplay {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+
+.findingsDisplay img {
+  width: 350px;
+  height: fit-content;
+}
+
+#finding2Img {
+  display: flex;
+  flex-direction: column;
+}
+
+#finding2Img img {
+  margin-bottom: 1rem;
+}
+
 /* /////////////// MediaQ //////////// */
 
 @media (min-width: 800px) {
