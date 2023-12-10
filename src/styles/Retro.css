@@ -62,7 +62,11 @@
 #retroDuration h2,
 .retroBreakDown h2,
 #retroResearch h2,
-#retroPain h2 {
+#retroPain h2,
+#userStudy h2,
+#userStudy h3,
+#userStudy h4
+ {
   font-size: 2rem;
   color: #f9c80e;
   text-shadow: 0px 0px 9px #f9c60eeb;
@@ -80,7 +84,9 @@
 #crazyEightsCon p,
 #paperInfo p,
 #digitalWF p,
-#lofiProto p {
+#lofiProto p,
+#userStudy p
+ {
   background-color: #0f0f2d;
   /* width: 60%; */
   padding: 1rem 1rem;
@@ -333,6 +339,45 @@
   justify-content: space-around;
 }
 
+/* ////////////////// User Study////////////// */
+
+#userStudy h2 {
+    font-size: 2.5rem;
+    margin-left: 0rem;
+    text-align: center;
+}
+
+#userStudy h3 {
+    margin-left: 2rem;
+}
+
+#studyFour,
+#findings
+ {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+  
+}
+
+#findingsInfo {
+  max-width: 700px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+#userStudy h4 {
+  font-size: 1.5rem;
+  margin-left: 0rem;
+}
+
+#findings p {
+  max-width: 350px;
+  margin: 0rem 1rem;
+}
 /* /////////////// MediaQ //////////// */
 
 @media (min-width: 800px) {

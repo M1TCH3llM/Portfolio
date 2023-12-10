@@ -249,31 +249,31 @@ function RetroTheater() {
         </div>
         <img id="lofiProtoImg" src={LoFi} alt="" />
       </div>
-      <div>
+      <div id="userStudy">
         <h2>Usability Study</h2>
         <div>
-          <h2>Parameters</h2>
-          <div>
+          <h3>Parameters</h3>
+          <div id="studyFour">
             <div>
-              <h3>Study Type</h3>
+              <h4>Study Type</h4>
               <p>Unmoderated Usability Study</p>
             </div>
             <div>
-              <h3>Location</h3>
+              <h4>Location</h4>
               <p>United States Remote</p>
             </div>
             <div>
-              <h3>Participants</h3>
+              <h4>Participants</h4>
               <p>5 Participants</p>
             </div>
             <div>
-              <h3>Study Type</h3>
-              <p>20-30 Minutes</p>
+              <h4>Study Type</h4>
+              <p>20 Minutes</p>
             </div>
           </div>
         </div>
-        <div>
-          <h2>Findings</h2>
+        <div id="findingsInfo">
+          <h3>Findings</h3>
           <p>
             {" "}
             Based on the gathered information, it was evident that users
@@ -287,23 +287,23 @@ function RetroTheater() {
             enjoyable user journey on the website.
           </p>
         </div>
-        <div>
+        <div id="findings">
           <div>
-            <h3>Finding #1</h3>
+            <h4>Finding #1</h4>
             <p>
               Users wanted to be able to select movies on ferris wheel
               presenter.
             </p>
           </div>
           <div>
-            <h3>Finding #2</h3>
+            <h4>Finding #2</h4>
             <p>
               Users had difficulty finding the book movie page because parts of
               the page were hidden.
             </p>
           </div>
           <div>
-            <h3>Finding #3</h3>
+            <h4>Finding #3</h4>
             <p>
               Users wanted to be able to add their rewards info into the website
               when checking out.
