@@ -273,6 +273,7 @@ function RetroTheater() {
           </div>
         </div>
         <div id="findingsInfo">
+          <div>
           <h3>Findings</h3>
           <p>
             {" "}
@@ -286,6 +287,7 @@ function RetroTheater() {
             updating the cart functionality to ensure a smoother and more
             enjoyable user journey on the website.
           </p>
+          </div>
         </div>
         <div id="findings">
           <div>
@@ -311,6 +313,7 @@ function RetroTheater() {
           </div>
         </div>
       </div>
+      
     </div>
   );
 }
