@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 
 import RetroBanner from "../../assets/UXAssets/RetroBanner.png";
 import UserSarah from "../../assets/UXAssets/RetroMovieSarah.png";
@@ -18,12 +18,48 @@ import NewMovie2 from "../../assets/UXAssets/NewMovie2.png";
 import CheckoutOld from "../../assets/UXAssets/CheckOutOld.png";
 import CheckoutNew from "../../assets/UXAssets/CheckoutNew.png";
 import RetroHiFiv1 from "../../assets/UXAssets/RetroHiFiv1.png";
+import Study2v1 from "../../assets/UXAssets/Study2v1.png";
+import Study2v2 from "../../assets/UXAssets/Study2v2.png";
+import PhoneHifi from "../../assets/UXAssets/PhoneHifi.png";
+import HighFiPro from "../../assets/UXAssets/HighFiPrototype.png";
 import "../../styles/NewRetro.css";
 import "../../styles/Retro.css";
 
 function RetroTheater() {
+  const myButtonRef = useRef(null);
+
+  useEffect(() => {
+    window.onscroll = function () {
+      scrollFunction();
+    };
+
+    return () => {
+      window.onscroll = null;
+    };
+  }, []); // Empty dependency array to run the effect only once on mount
+
+  function scrollFunction() {
+    const myButton = myButtonRef.current;
+
+    if (myButton) {
+      if (
+        document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20
+      ) {
+        myButton.style.display = "block";
+      } else {
+        myButton.style.display = "none";
+      }
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
   return (
-    <div id="retroPage" style={{ paddingBottom: "5rem" }}>
+    <div id="retroPage" style={{ paddingBottom: "7rem" }}>
       <div>
         <img id="retroBanner" src={RetroBanner} alt="retro movie banner" />
       </div>
@@ -179,8 +215,12 @@ function RetroTheater() {
               remotely.
             </p>
           </div>
-          <img className="mediumImg
-          " src={Eights} alt="Crazy Eights Drawing" />
+          <img
+            className="mediumImg
+          "
+            src={Eights}
+            alt="Crazy Eights Drawing"
+          />
         </div>
       </div>
       <div className="blueFont">
@@ -194,11 +234,7 @@ function RetroTheater() {
         </div>
         <div className="wrapCenter m-t2">
           <div>
-            <img
-              className="wideImg"
-              src={PaperWeb}
-              alt="Paper wireframe Web"
-            />
+            <img className="wideImg" src={PaperWeb} alt="Paper wireframe Web" />
             <h3 id="paperH3">Web</h3>
           </div>
           <div id="paperH3">
@@ -264,7 +300,7 @@ function RetroTheater() {
 
       <div className="yellowFont">
         <h2>Usability Study</h2>
-        <div >
+        <div>
           <h3>Parameters</h3>
           <div className="spaceAround">
             <div>
@@ -336,10 +372,18 @@ function RetroTheater() {
                 movies and navigate to booking form.
               </p>
             </div>
-            <img className="stableWideImg" src={Home2} alt="wire from iteration" />
+            <img
+              className="stableWideImg"
+              src={Home2}
+              alt="wire from iteration"
+            />
           </div>
           <div className="spaceAround m-t1">
-            <img className="stableWideImg" src={OldMovie} alt="Pre user study wireframe" />
+            <img
+              className="stableWideImg"
+              src={OldMovie}
+              alt="Pre user study wireframe"
+            />
             <div>
               <h4>Finding #2</h4>
               <p className="findingPWidth">
@@ -350,12 +394,24 @@ function RetroTheater() {
               </p>
             </div>
             <div className="columnD">
-              <img className="stableWideImg" src={NewMovie1} alt="New movie Wireframe" />
-              <img className="stableWideImg m-t1" src={NewMovie2} alt="new booking wire frame" />
+              <img
+                className="stableWideImg"
+                src={NewMovie1}
+                alt="New movie Wireframe"
+              />
+              <img
+                className="stableWideImg m-t1"
+                src={NewMovie2}
+                alt="new booking wire frame"
+              />
             </div>
           </div>
           <div className="spaceAround m-t1">
-            <img className="stableWideImg" src={CheckoutOld} alt="Pre User study checkout" />
+            <img
+              className="stableWideImg"
+              src={CheckoutOld}
+              alt="Pre User study checkout"
+            />
             <div>
               <h4>Finding #3</h4>
               <p className="findingPWidth">
@@ -363,37 +419,60 @@ function RetroTheater() {
                 users.
               </p>
             </div>
-            <img className="stableWideImg" src={CheckoutNew} alt="post user study checkout" />
+            <img
+              className="stableWideImg"
+              src={CheckoutNew}
+              alt="post user study checkout"
+            />
           </div>
         </div>
       </div>
-            <div className="pageBreak"/>
+      <div className="pageBreak" />
 
       <div className="pinkFont">
         <h2>Mockups</h2>
-        <div className="columnD" >
+        <div className="columnD">
           <img className="fullImg" src={RetroHiFiv1} alt="" />
         </div>
-        <img src="" alt="" />
-        <div>
-          <h3>Second User Study</h3>
-          <p className="yellowFont">
-            After a second usability study I found that the clashing of yellow
-            font on a blue background was difficult for users to see.
-          </p>
+        <div className="spaceAround m-t2">
+          <img
+            className="stableWideImg"
+            src={Study2v1}
+            alt="Fist iteration of hifi prototype"
+          />
+          <div>
+            <h3>Second User Study</h3>
+            <p className="yellowFont sPwidth sPwidthS">
+              After a second usability study I found that the clashing of yellow
+              font on a blue background was difficult for users to see.
+            </p>
+          </div>
+          <img
+            className="stableWideImg"
+            src={Study2v2}
+            alt="Final Iteration of hifi prototype"
+          />
         </div>
-        <img src="" alt="" />
       </div>
-      <div className="pinkFont">
+      <div className="pinkFont columnD">
         <h3>Mobile Mockups</h3>
-        <img src="" alt="" />
+        <img className="fullImg" src={PhoneHifi} alt="" />
       </div>
-      <div className="pinkFont">
+      <div className="pinkFont columnD m-t1">
         <h3>High Fidelity Prototypes</h3>
-        <img src="" alt="" />
+        <img className="fullImg" src={HighFiPro} alt="" />
       </div>
-      <a href="">Link To HiFi Prototypes</a>
-      <div className="pinkFont">
+      <div className="m-t3" id="link">
+        <a
+          id="linkA"
+          href="https://xd.adobe.com/view/5599654b-692f-466b-ae0f-d6adcde40fe4-00ca/"
+          target="blank"
+        >
+          Link To HiFi Prototypes
+        </a>
+      </div>
+      <div className="pageBreak m-t3" />
+      <div className="pinkFont m-t2 columnD">
         <h2>Final Thoughts</h2>
         <div className="yellowFont">
           <p>
@@ -412,9 +491,11 @@ function RetroTheater() {
             <br />
             Thank You For Reviewing This Project!
           </p>
-        </div>
+        </div>{" "}
+        <button onClick={topFunction} className="m-t3 " id="bckTop">
+          Back To Top
+        </button>
       </div>
-      <button>Back To Top</button>
     </div>
   );
 }

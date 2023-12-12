@@ -116,7 +116,7 @@
 }
 
 .sPwidth {
-  max-width: 350px;
+  max-width: 350px !important;
   height: 125px;
 }
 
@@ -126,7 +126,7 @@
 }
 
 .findingPWidth {
-    width: 250px;
+  width: 250px;
 }
 
 .spaceAround {
@@ -135,50 +135,100 @@
   justify-content: space-around;
 }
 
+
+
 /* /////////////// Margin /////////////// */
 
 .m-s1 {
-    margin: 0rem 1rem;
+  margin: 0rem 1rem;
+}
+
+.m-t3 {
+  margin-top: 3rem;
 }
 
 .m-t2 {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .m-t1 {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 /* /////////// img css ///////////////// */
 
 .wideImg {
-    width: 350px;
-    margin: 0rem 1rem;
+  width: 350px;
+  margin: 0rem 1rem;
 }
 
 .stableWideImg {
-    width: 350px;
+  width: 350px;
 }
 
 .mediumImg {
-    width: 400px;
+  width: 400px;
 }
 
 .fullImg {
-    width: 90%;
+  width: 90%;
 }
 
 .imgMedHeight {
-    height: 600px;
+  height: 600px;
 }
+
+/* ////////////////// Buttons //////////////// */
+
+
+#link {
+    text-align: center;
+  }
+  
+  #linkA {
+    color: azure;
+    background-color: #f6009d;
+    font-size: 2rem;
+    font-family: "Audiowide";
+    padding: 1rem;
+    border-radius: 30px;
+    border: 2px solid azure;
+  }
+  
+  #linkA:hover {
+    background-color: #c7047f;
+  }
+  
+  #linkA:active {
+    box-shadow: inset 0px 0px 10px black;
+    border: 2px solid rgb(211, 218, 218);
+  }
+
+  #bckTop {
+    color: azure;
+    background-color: #f6009d;
+    font-size: 2rem;
+    font-family: "Audiowide";
+    padding: 1rem;
+    border-radius: 30px;
+    border: 2px solid azure;
+  }
+  
+  #bckTop:hover {
+    background-color: #c7047f;
+  }
+  
+  #bckTop:active {
+    box-shadow: inset 0px 0px 10px black;
+    border: 2px solid rgb(211, 218, 218);
+  }
 
 
 @media (min-width: 800px) {
-  
-.wideImg {
-   width: 600px;
-    }
-  
-    #retroPage p {
+  .wideImg {
+    width: 600px;
+  }
+
+  #retroPage p {
     margin: 0rem 1rem;
   }
 
