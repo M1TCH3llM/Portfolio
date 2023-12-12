@@ -17,6 +17,7 @@ import NewMovie1 from "../../assets/UXAssets/NewMovie1.png";
 import NewMovie2 from "../../assets/UXAssets/NewMovie2.png";
 import CheckoutOld from "../../assets/UXAssets/CheckOutOld.png";
 import CheckoutNew from "../../assets/UXAssets/CheckoutNew.png";
+import RetroHiFiv1 from "../../assets/UXAssets/RetroHiFiv1.png";
 import "../../styles/NewRetro.css";
 import "../../styles/Retro.css";
 
@@ -77,10 +78,9 @@ function RetroTheater() {
           </p>
         </div>
       </div>
-      <div id="retroResearch">
-        <h2 className="pinkFont" id="retroResearchH2">
-          Research Overview
-        </h2>
+      <div className="pageBreak" />
+      <div className="columnD">
+        <h2 className="pinkFont">Research Overview</h2>
         <div className="yellowFont">
           <p>
             By conducting extensive user research and creating empathy maps, we
@@ -109,26 +109,26 @@ function RetroTheater() {
           </p>
         </div>
       </div>
-      <div className="pinkFont" id="retroPain">
-        <h2 id="retroPainH2">Pain Points</h2>
+      <div className="pinkFont">
+        <h2>Pain Points</h2>
         <div id="retroPainPoints" className="wrapCenter">
-          <div className="pain">
+          <div>
             <h3>Navigation</h3>
-            <p>
+            <p className="sPwidth sPwidthS">
               Users want a simple navigation experience that doesn't get them
               lost when looking for movies.
             </p>
           </div>
-          <div className="pain">
+          <div>
             <h3>Tickets</h3>
-            <p>
+            <p className="sPwidth sPwidthS">
               Users want a simple navigation experience that doesn't get them
               lost when looking for movies.
             </p>
           </div>
-          <div className="pain">
+          <div>
             <h3>Movie Info</h3>
-            <p>
+            <p className="sPwidth sPwidthS">
               Users want a way to read about the movie to better understand if
               its a film they would like to see or not.
             </p>
@@ -137,22 +137,24 @@ function RetroTheater() {
       </div>
       <div className="pinkFont" id="retroPersonas">
         <h2>User Personas</h2>
-        <div id="userContainer">
-          <div className="retroUser">
+        <div className="spaceAround">
+          <div>
             <h3>Sarah</h3>
-            <img src={UserSarah} />
+            <img className="wideImg" src={UserSarah} />
           </div>
-          <div className="retroUser">
+          <div>
             <h3>James</h3>
-            <img src={UserJames} />
+            <img className="wideImg" src={UserJames} />
           </div>
         </div>
       </div>
+      <div className="pageBreak" />
+
       <div className="blueFont" id="design">
         <h2>Design</h2>
       </div>
-      <div className="blueFont" id="retroMap">
-        <img src={Map} alt="Retro Movie Map" />
+      <div className="blueFont spaceAround" id="retroMap">
+        <img className="wideImg" src={Map} alt="Retro Movie Map" />
         <div id="retroMapInfo">
           <h3>Site Map</h3>
           <p className="yellowFont">
@@ -166,10 +168,10 @@ function RetroTheater() {
         <div>
           <h2>Paper Wire Frames</h2>
         </div>
-        <div id="crazyEightsCon">
-          <div>
+        <div className="spaceAround">
+          <div className="columnD">
             <h3>Crazy 8's</h3>
-            <p className="yellowFont" id="crazyP">
+            <p className="yellowFont">
               This step was done with digital wireframes and only using crazy
               8's sketches as references. The reason for this was I already knew
               exactly where features were going to be incorporated into the
@@ -177,11 +179,12 @@ function RetroTheater() {
               remotely.
             </p>
           </div>
-          <img src={Eights} alt="Crazy Eights Drawing" />
+          <img className="mediumImg
+          " src={Eights} alt="Crazy Eights Drawing" />
         </div>
       </div>
       <div className="blueFont">
-        <div id="paperInfo">
+        <div className="columnD">
           <h2>Paper Wireframe Screen Size Variation</h2>
           <p className="yellowFont">
             My goal during this process was to keep similar attributes and
@@ -189,10 +192,10 @@ function RetroTheater() {
             navigate the phone screen just the same as the web page.
           </p>
         </div>
-        <div id="paperImg">
+        <div className="wrapCenter">
           <div>
             <img
-              className="paperImg"
+              className="wideImg"
               src={PaperWeb}
               alt="Paper wireframe Web"
             />
@@ -200,7 +203,7 @@ function RetroTheater() {
           </div>
           <div id="paperH3">
             <img
-              className="paperImg"
+              className="wideImg"
               src={PaperTab}
               alt="Paper wireframe Phone"
             />
@@ -257,6 +260,8 @@ function RetroTheater() {
         </div>
         <img id="lofiProtoImg" src={LoFi} alt="" />
       </div>
+      <div className="pageBreak" />
+
       <div className="yellowFont" id="userStudy">
         <h2>Usability Study</h2>
         <div>
@@ -325,7 +330,7 @@ function RetroTheater() {
             <img src={WebWF} alt="first paper web" />
             <div>
               <h4>Finding #1</h4>
-              <p>
+              <p className="findingPWidth">
                 I updated the home page and changed the movie ferris wheel to be
                 more intuitive and interactive so users will be able to select
                 movies and navigate to booking form.
@@ -337,7 +342,7 @@ function RetroTheater() {
             <img src={OldMovie} alt="Pre user study wireframe" />
             <div>
               <h4>Finding #2</h4>
-              <p>
+              <p className="findingPWidth">
                 To make the ticket selection and booking process I updated the
                 layout to consist of two separate pages as opposed to one. This
                 helped users who where unable to find the ticket purchasing page
@@ -353,7 +358,7 @@ function RetroTheater() {
             <img src={CheckoutOld} alt="Pre User study checkout" />
             <div>
               <h4>Finding #3</h4>
-              <p>
+              <p className="findingPWidth">
                 I updated the checkout page to include loyalty information from
                 users.
               </p>
@@ -362,10 +367,12 @@ function RetroTheater() {
           </div>
         </div>
       </div>
+            <div className="pageBreak"/>
+
       <div className="pinkFont">
         <h2>Mockups</h2>
-        <div>
-          <img src="" alt="" />
+        <div className="columnD" >
+          <img className="fullImg" src={RetroHiFiv1} alt="" />
         </div>
         <img src="" alt="" />
         <div>

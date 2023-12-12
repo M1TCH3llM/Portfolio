@@ -91,6 +91,11 @@
   margin: 0rem 1rem;
 }
 
+.pageBreak {
+  border-bottom: 1px solid #f9c60ebe;
+  margin: 2rem;
+}
+
 /* ////////// page layout ????????????? */
 
 #retroHeader {
@@ -111,22 +116,49 @@
 }
 
 .sPwidth {
-  width: 350px;
+  max-width: 350px;
   height: 125px;
-  margin: 0rem 1rem !important;
+}
+
+.sPwidthS {
+  height: 50px;
+  color: #f9c80e;
+}
+
+.findingPWidth {
+    width: 250px;
+}
+
+.spaceAround {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+/* /////////// img css ///////////////// */
+
+.wideImg {
+    width: 350px;
+    margin: 0rem 1rem;
+}
+
+.mediumImg {
+    width: 400px;
+}
+
+.fullImg {
+    width: 90%;
 }
 
 @media (min-width: 800px) {
-  #retroPage p {
-    margin: 0rem;
-  }
-
-  .retroUser img {
-    width: 700px;
-  }
-
-  #retroMap img {
-    width: 500px;
+  
+.wideImg {
+   width: 600px;
+    }
+  
+    #retroPage p {
+    margin: 0rem 1rem;
   }
 
   #lofiProtoImg {
