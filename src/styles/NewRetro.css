@@ -135,12 +135,28 @@
   justify-content: space-around;
 }
 
+/* /////////////// Margin /////////////// */
 
+.m-s1 {
+    margin: 0rem 1rem;
+}
+
+.m-t2 {
+    margin-top: 2rem;
+}
+
+.m-t1 {
+    margin-top: 1rem;
+}
 /* /////////// img css ///////////////// */
 
 .wideImg {
     width: 350px;
     margin: 0rem 1rem;
+}
+
+.stableWideImg {
+    width: 350px;
 }
 
 .mediumImg {
@@ -150,6 +166,11 @@
 .fullImg {
     width: 90%;
 }
+
+.imgMedHeight {
+    height: 600px;
+}
+
 
 @media (min-width: 800px) {
   

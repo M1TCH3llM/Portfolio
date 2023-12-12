@@ -192,7 +192,7 @@ function RetroTheater() {
             navigate the phone screen just the same as the web page.
           </p>
         </div>
-        <div className="wrapCenter">
+        <div className="wrapCenter m-t2">
           <div>
             <img
               className="wideImg"
@@ -212,7 +212,7 @@ function RetroTheater() {
         </div>
       </div>
       <div className="blueFont">
-        <div id="digitalWF">
+        <div className="columnD">
           <h2>Digital WireFrames</h2>
           <div>
             <p className="yellowFont">
@@ -222,10 +222,10 @@ function RetroTheater() {
             </p>
           </div>
         </div>
-        <div id="digitalWFCon">
+        <div className="wrapCenter m-t2">
           <div>
             <img
-              className="dWF"
+              className="imgMedHeight m-s1"
               src={WebWF}
               alt="Early Web Digital Wire Frame"
             />
@@ -233,7 +233,7 @@ function RetroTheater() {
           </div>
           <div>
             <img
-              className="dWF"
+              className="imgMedHeight m-s1"
               src={TabletWF}
               alt="Early Tablet Digital Wire Frame"
             />
@@ -241,7 +241,7 @@ function RetroTheater() {
           </div>
           <div>
             <img
-              className="dWF"
+              className="imgMedHeight m-s1"
               src={PhoneWF}
               alt="Early Phone Digital Wire Frame"
             />
@@ -249,8 +249,8 @@ function RetroTheater() {
           </div>
         </div>
       </div>
-      <div className="blueFont" id="lofiProtoCon">
-        <div id="lofiProto">
+      <div className="blueFont spaceAround m-t2">
+        <div>
           <h2>Low Fidelity Prototype</h2>
           <p className="yellowFont">
             Initially for my low fidelity prototype I wanted to simulate the
@@ -258,15 +258,15 @@ function RetroTheater() {
             critical user issues and prototype shortcomings.
           </p>
         </div>
-        <img id="lofiProtoImg" src={LoFi} alt="" />
+        <img className="wideImg" src={LoFi} alt="" />
       </div>
       <div className="pageBreak" />
 
-      <div className="yellowFont" id="userStudy">
+      <div className="yellowFont">
         <h2>Usability Study</h2>
-        <div>
+        <div >
           <h3>Parameters</h3>
-          <div id="studyFour">
+          <div className="spaceAround">
             <div>
               <h4>Study Type</h4>
               <p>Unmoderated Usability Study</p>
@@ -285,7 +285,7 @@ function RetroTheater() {
             </div>
           </div>
         </div>
-        <div id="findingsInfo">
+        <div className="columnD m-t2">
           <div>
             <h3>Findings</h3>
             <p>
@@ -302,7 +302,7 @@ function RetroTheater() {
             </p>
           </div>
         </div>
-        <div id="findings">
+        <div className="spaceAround">
           <div>
             <h4>Finding #1</h4>
             <p>
@@ -326,8 +326,8 @@ function RetroTheater() {
           </div>
         </div>
         <div>
-          <div className="findingsDisplay">
-            <img src={WebWF} alt="first paper web" />
+          <div className="spaceAround m-t2">
+            <img className="stableWideImg" src={WebWF} alt="first paper web" />
             <div>
               <h4>Finding #1</h4>
               <p className="findingPWidth">
@@ -336,10 +336,10 @@ function RetroTheater() {
                 movies and navigate to booking form.
               </p>
             </div>
-            <img src={Home2} alt="wire from iteration" />
+            <img className="stableWideImg" src={Home2} alt="wire from iteration" />
           </div>
-          <div className="findingsDisplay">
-            <img src={OldMovie} alt="Pre user study wireframe" />
+          <div className="spaceAround m-t1">
+            <img className="stableWideImg" src={OldMovie} alt="Pre user study wireframe" />
             <div>
               <h4>Finding #2</h4>
               <p className="findingPWidth">
@@ -349,13 +349,13 @@ function RetroTheater() {
                 due to it not being visible.
               </p>
             </div>
-            <div id="finding2Img">
-              <img src={NewMovie1} alt="New movie Wireframe" />
-              <img src={NewMovie2} alt="new booking wire frame" />
+            <div className="columnD">
+              <img className="stableWideImg" src={NewMovie1} alt="New movie Wireframe" />
+              <img className="stableWideImg m-t1" src={NewMovie2} alt="new booking wire frame" />
             </div>
           </div>
-          <div className="findingsDisplay">
-            <img src={CheckoutOld} alt="Pre User study checkout" />
+          <div className="spaceAround m-t1">
+            <img className="stableWideImg" src={CheckoutOld} alt="Pre User study checkout" />
             <div>
               <h4>Finding #3</h4>
               <p className="findingPWidth">
@@ -363,7 +363,7 @@ function RetroTheater() {
                 users.
               </p>
             </div>
-            <img src={CheckoutNew} alt="post user study checkout" />
+            <img className="stableWideImg" src={CheckoutNew} alt="post user study checkout" />
           </div>
         </div>
       </div>
@@ -414,6 +414,7 @@ function RetroTheater() {
           </p>
         </div>
       </div>
+      <button>Back To Top</button>
     </div>
   );
 }
