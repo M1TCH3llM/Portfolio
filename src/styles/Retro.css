@@ -1,162 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
-
-#retroPage {
-  background-image: url("../assets/UXAssets/RetroBackground.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center center;
-  margin-top: 10rem;
-}
-
-#retroPage img {
-  border: 3px solid #f9c80e;
-  border-radius: 30px;
-  box-shadow: 5px 5px 10px black;
-}
-
-#retroBanner {
-  box-shadow: 0px -10px 50px 60px black !important;
-  height: 400px;
-  width: 100%;
-  object-fit: cover;
-  margin-bottom: 2rem;
-  border: none !important;
-  border-radius: 0px !important;
-}
-
-#retroPage h1,
-#retroPage h2,
-#retroPage h3 {
-  font-family: "Audiowide";
-}
-
-#retroPage h2 {
-  font-size: 2.5rem;
-}
-
-#retroHeader {
-  display: flex;
-  justify-content: center;
-}
-#retroHeader h1 {
-  background-color: #0f0f2d;
-  padding: 0.5rem 1rem;
-  margin: 3rem 1rem;
-  border: 3px solid #f9c80e;
-  border-radius: 30px;
-  /* box-shadow: 0px 0px 20px #F9C80E; */
-  box-shadow: inset 0px 0px 10px #f9c80e, 0px 0px 20px #f9c80e;
-  filter: drop-shadow(0px 0px 8px white);
-}
-
-/* /////////////////////// Project Overview ///////////////// */
-
-#retroOverView {
-  display: flex;
-  flex-direction: column;
-  margin: 0rem 1rem;
-}
-
-#retroOverView h2,
-#retroDuration h2,
-.retroBreakDown h2,
-#retroResearch h2,
-#retroPain h2,
-#userStudy h2,
-#userStudy h3,
-#userStudy h4
- {
-  font-size: 2rem;
-  color: #f9c80e;
-  text-shadow: 0px 0px 9px #f9c60eeb;
-  margin-left: 1rem;
-  margin-bottom: 0.5rem;
-  filter: drop-shadow(3px 3px 0px black);
-}
-
-#retroOverView div,
-#retroDuration div,
-.retroBreakDown div,
-#retroResearch div,
-#retroPain p,
-#retroMapInfo p,
-#crazyEightsCon p,
-#paperInfo p,
-#digitalWF p,
-#lofiProto p,
-#userStudy p
- {
-  background-color: #0f0f2d;
-  /* width: 60%; */
-  padding: 1rem 1rem;
-  border: 3px solid #f9c80e;
-  border-radius: 30px;
-}
-
-#retroOverView div,
-#retroDuration div {
-  width: 60%;
-}
-
-/* //////////////////////// Duration //////////////////// */
-
-#retroDuration {
-  margin: 1rem;
-}
-
-#retroDuration div {
-  width: 40%;
-  text-align: center;
-}
-
-/* ////////////////////// 4 points ////////////////// */
-
-#retroBreakDown,
-#retroPainPoints {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.retroBreakDown,
-.pain {
-  width: 350px;
-  margin: 1rem;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.pain {
-  margin: 0rem;
-}
-
-.retroBreakDown div {
-  height: 150px;
-}
-
-/* ////////////////////// Research ////////////////// */
 
 #retroResearch {
   margin: 0rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-#retroResearch h2,
-#retroPain h2,
-.pain h2,
-#retroPersonas h2,
-#retroPersonas h3 {
-  color: #f6009d;
-  text-shadow: 0px 0px 9px #f6009d;
-  filter: drop-shadow(3px 3px 0px black);
-}
-
-#retroResearch h2 {
-  font-size: 2.5rem;
 }
 
 #retroResearchH2,
@@ -199,18 +46,6 @@
 
 /* /////////////// Design ///////////// */
 
-#design h2,
-#retroMapInfo h3,
-#paperWireFrame h2,
-#paperWireFrame h3,
-#paperInfo h2,
-#digitalWF h2,
-#lofiProto h2 {
-  color: #2de2e6;
-  text-shadow: 0px 0px 9px #2de2e6;
-  text-align: center;
-  filter: drop-shadow(3px 3px 0px black);
-}
 
 #design h2,
 #paperWireFrame h2 {
@@ -229,16 +64,7 @@
   width: 350px !important;
 }
 
-#retroMapInfo h3,
-#paperWireFrame h3,
-#digitalWFCon {
-  margin-left: 1rem;
-  margin-bottom: 1rem;
-  font-size: 2rem !important;
-  text-align: left;
-  text-shadow: 0px 0px 9px #2de2e6;
-  filter: drop-shadow(3px 3px 0px black);
-}
+
 
 #retroMap img {
   width: 350px;

@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+#retroPage {
+  background-image: url("../assets/UXAssets/RetroBackground.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  margin-top: 10rem;
+}
+
+#retroBanner {
+  box-shadow: 0px -10px 50px 60px black !important;
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 2rem;
+  border: none !important;
+  border-radius: 0px !important;
+}
+
+#retroPage img {
+  border: 3px solid #f9c80e;
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px black;
+}
+
+#retroPage h1,
+#retroPage h2,
+#retroPage h3,
+#retroPage h4 {
+  font-family: "Audiowide";
+  text-align: center;
+}
+
+#retroHeader h1 {
+  background-color: #0f0f2d;
+  padding: 0.5rem 1rem;
+  margin: 3rem 1rem;
+  border: 3px solid #f9c80e;
+  border-radius: 30px;
+  /* box-shadow: 0px 0px 20px #F9C80E; */
+  box-shadow: inset 0px 0px 10px #f9c80e, 0px 0px 20px #f9c80e;
+  filter: drop-shadow(0px 0px 8px white);
+}
+
+#retroPage h2 {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+}
+#retroPage h3 {
+  font-size: 2rem;
+}
+#retroPage h3 {
+  font-size: 1.7rem;
+}
+#retroPage h4 {
+  font-size: 1.25rem;
+}
+
+#retroHeader {
+  display: flex;
+  justify-content: center;
+}
+
+.yellowFont {
+  color: #f9c80e;
+  text-shadow: 0px 0px 9px #f9c60eeb;
+  margin-bottom: 0.5rem;
+  filter: drop-shadow(3px 3px 0px black);
+}
+
+.pinkFont {
+  color: #f6009d;
+  text-shadow: 0px 0px 9px #f6009d;
+  filter: drop-shadow(3px 3px 0px black);
+}
+
+.blueFont {
+  color: #2de2e6;
+  text-shadow: 0px 0px 9px #2de2e6;
+  filter: drop-shadow(3px 3px 0px black);
+}
+
+#retroPage p {
+  background-color: #0f0f2d;
+  padding: 1rem 1rem;
+  border: 3px solid #f9c80e;
+  border-radius: 30px;
+  max-width: 500px;
+  margin: 0rem 1rem;
+}
+
+/* ////////// page layout ????????????? */
+
+#retroHeader {
+  display: flex;
+  justify-content: center;
+}
+
+.columnD {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapCenter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sPwidth {
+  width: 350px;
+  height: 125px;
+  margin: 0rem 1rem !important;
+}
+
+@media (min-width: 800px) {
+  #retroPage p {
+    margin: 0rem;
+  }
+
+  .retroUser img {
+    width: 700px;
+  }
+
+  #retroMap img {
+    width: 500px;
+  }
+
+  #lofiProtoImg {
+    width: 650px;
+  }
+}
