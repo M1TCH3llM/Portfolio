@@ -20,7 +20,7 @@ import CheckoutNew from "../../assets/UXAssets/CheckoutNew.png";
 import RetroHiFiv1 from "../../assets/UXAssets/RetroHiFiv1.png";
 import Study2v1 from "../../assets/UXAssets/StudyTwoOne.png";
 import Study2v2 from "../../assets/UXAssets/StudyTwoTwo.png";
-import PhoneHifi from "../../assets/UXAssets/PhoneHiFi.png";
+import PhoneHi from "../../assets/UXAssets/PhoneHi.png";
 import HighFiPro from "../../assets/UXAssets/HighFiPrototype.png";
 import "../../styles/NewRetro.css";
 import "../../styles/Retro.css";
@@ -456,7 +456,7 @@ function RetroTheater() {
       </div>
       <div className="pinkFont columnD">
         <h3>Mobile Mockups</h3>
-        <img className="fullImg" src={PhoneHifi} alt="" />
+        <img className="fullImg" src={PhoneHi} alt="" />
       </div>
       <div className="pinkFont columnD m-t1">
         <h3>High Fidelity Prototypes</h3>
