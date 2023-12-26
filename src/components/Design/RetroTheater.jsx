@@ -18,7 +18,7 @@ import NewMovie2 from "../../assets/UXAssets/NewMovie2.png";
 import CheckoutOld from "../../assets/UXAssets/CheckoutOld.png";
 import CheckoutNew from "../../assets/UXAssets/CheckoutNew.png";
 import RetroHiFiv1 from "../../assets/UXAssets/RetroHiFiv1.png";
-import Study2v1 from "../../assets/UXAssets/Study2v1.png";
+import Study2v1 from "../../assets/UXAssets/StudyTwoOne.png";
 import Study2v2 from "../../assets/UXAssets/Study2v2.png";
 import PhoneHifi from "../../assets/UXAssets/PhoneHifi.png";
 import HighFiPro from "../../assets/UXAssets/HighFiPrototype.png";
