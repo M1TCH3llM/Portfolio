@@ -20,7 +20,7 @@ import CheckoutNew from "../../assets/UXAssets/CheckoutNew.png";
 import RetroHiFiv1 from "../../assets/UXAssets/RetroHiFiv1.png";
 import Study2v1 from "../../assets/UXAssets/StudyTwoOne.png";
 import Study2v2 from "../../assets/UXAssets/StudyTwoTwo.png";
-import PhoneHifi from "../../assets/UXAssets/PhoneHifi.png";
+import PhoneHifi from "../../assets/UXAssets/PhoneHiFi.png";
 import HighFiPro from "../../assets/UXAssets/HighFiPrototype.png";
 import "../../styles/NewRetro.css";
 import "../../styles/Retro.css";
