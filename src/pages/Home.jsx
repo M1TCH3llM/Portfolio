@@ -22,7 +22,7 @@ function Home() {
             Hi! I'm a Full Stack Developer with UX, UI Design experience. I
             enjoy making easy and fun to use websites and apps. All img assets
             were home made by me for you. Please take your time to look over my
-            web site! and enjoy!!!
+            website! and enjoy!!!
           </div>
         </div>
         <div className="homeCam">
