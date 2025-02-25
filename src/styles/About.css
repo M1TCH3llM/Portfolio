@@ -1,6 +1,6 @@
 #letter {
   margin: 2rem;
-  background-color: rgba(240, 255, 255, 0.801);
+  background-color: hex(#f0fffffa);
   color: black;
   padding: 1.5rem;
   border-radius: 20px;
